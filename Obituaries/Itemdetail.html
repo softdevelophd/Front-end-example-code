@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Obituaries Service</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+ 
+	<link href='https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<!-- font-family: 'Alegreya', serif; -->
+	<link href='https://fonts.googleapis.com/css?family=Cinzel:400,700' rel='stylesheet' type='text/css'>
+	<!-- font-family: 'Cinzel', serif; -->
+	<link rel="stylesheet" type="text/css" href="styles/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/css/bootstrap-social.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+	<link rel="canonical"  href="https://dev.twitter.com/web/tweet-button">
+
+	<link rel="stylesheet" href="styles/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/css/custom.css">
+	<link href='styles/css/media.css' rel='stylesheet' type='text/css'>
+</head>
+<body class="OBdetail-page">
+	<header class="header hidden-xs">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<div class="row">
+						<a href="homepage.html" class="logo">
+							<img src="styles/images/logo.png">
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-10 pull-right">
+					<div class="row">
+						<form class="form-inline">
+							<div class="form-group">
+								<input type="text" class="form-control" id="InputUser" placeholder="Username">
+							</div>
+							<div class="form-group">
+								<input type="password" class="form-control" id="InputPass" placeholder="Password">
+							</div>
+	                		<input class=" btn btn-primary" name="submit" value="Login" type="submit" id="form_submit">
+	                		<!-- <a href="#" class="forgot">Forgot Password?</a> -->
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="menu">
+		<div class="container">
+			<div class="row">
+				<nav class="navbar navbar-default">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<a class="navbar-brand" href="javascript:void(0)" style="">Obituaries ZONE</a>
+					<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="homepage.html">Home <span class="sr-only">(current)</span></a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Help & Resources <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="termsofuse.html">Terms of Use</a></li>
+									<li><a href="privacy-policy.html">Privacy Policy</a></li>
+								</ul>
+							</li>
+							<li><a href="Itemsummarylisting.html">Item summary listing</a></li>
+							<li><a href="aboutus.html">About us</a></li>
+							<li class="contact-menu"><a href="contact.html">Contact</a></li>
+							<li class="visible-xs">
+								<!-- Button trigger modal -->
+								<a href="#" data-toggle="modal" data-target="#myModal-login">Login</a>
+								<!-- Modal -->
+							</li>
+						</ul>
+						<div class="modal_Login modal fade" id="myModal-login" tabindex="-1" role="dialog" aria-labelledby="myModal-loginLabel">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      	<div class="modal-header">
+						        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        	<h4 class="modal-title" id="myModal-loginLabel">Login</h4>
+						      	</div>
+						      	<div class="login_form">
+							      	<div class="form_login_img">
+							      		<img src="styles/images/imglogin.png">
+							      	</div>
+							        <form>
+							        	<div class="form-group">
+							        		<label>Email or username:</label>
+							        		<input type="text" class="form-control" id="username" placeholder="Username">
+							        	</div>
+							        	<div class="form-group">
+							        		<label>Password:</label>
+							        		<input type="password" class="form-control" id="password" placeholder="Password">
+							        	</div>
+							        	<div class="checkbox">
+										    <label>
+										      	<input type="checkbox"> Remember me
+										    </label>
+									  	</div>
+									  	<button type="submit" class="btn btn-default">Submit</button>
+							        </form>
+								  	<div class="footer_Login">
+								  		<p>Have you <a href="#">Forgotten your Username or Password?</a></p>
+								  	</div>
+						      </div>
+						    </div>
+						  </div>
+						</div><!-- End Modal -->
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="OBdetail">
+		<div class="container">
+			<div class="row">
+				<div class="OBdetail-cnt">					
+					<div class="col-md-8 col-sm-12 col-xs-12 OBdetail-L">
+						<div class="row">
+							<div class="OB-info">
+								<div class="OB-name col-sm-12 col-xs-12">
+									<div class="OB-head">
+			                			<h1>Victor Moderkaiser <span>(13 Nov 1941 - 23 Feb 2016)</span></h1>
+					                	<div class="social-controls">
+								            <div class="social_fb_like social-network">
+												<script>(function(d, s, id) {
+												  var js, fjs = d.getElementsByTagName(s)[0];
+												  if (d.getElementById(id)) return;
+												  js = d.createElement(s); js.id = id;
+												  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5&appId=509159649268573";
+												  fjs.parentNode.insertBefore(js, fjs);
+												}(document, 'script', 'facebook-jssdk'));</script>
+								            	<div class="fb-like" data-href="https://www.funeralzone.co.uk/obituaries/409" data-width="500" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+									            <div id="fb-root"></div>
+								            </div>
+								            <div class="social_fb_share social-network">
+								            	<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"></div>
+								            	<div id="fb-root"></div>
+								            </div>
+								            <div class="twitter social-network">
+								                <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+												<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+								            </div>
+								            <div class="gplus social-network">
+												<script src="https://apis.google.com/js/platform.js" async defer></script>
+												<div class="g-plusone" data-annotation="none"></div>
+								            </div>
+								        </div>
+								    </div>
+								</div>
+								<div class="OB-infomation col-sm-12 col-xs-12">
+									<div class="row">
+										<div class="OB-image col-sm-4 col-xs-12"> 			
+						                    <a href="#" class="view-photo iframeignore" onclick="return false;">
+						                        <img src="styles/images/images.jpg">
+						                    </a>
+						                </div>
+						                <div class="OB-intro col-sm-8 col-xs-12">
+								            <div class="eulogy-cnt">
+								            	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+								            </div>
+						                </div>
+						            </div>
+					            </div>
+							</div>
+					        <div class="OB-email-photo">
+					        	<div class="OB-email">
+					        		<div class="OB-email-cnt">
+					        			<a href="#">
+					        				<i><img src="styles/images/btn-mail.png"></i>
+					        				<span>Email Next of Kin</span>
+					        			</a>
+					        		</div>
+					        	</div>
+					        	<div class="OB-photo">
+					        		<div class="OB-photo-cnt">
+							        	<a href="#">
+							        		<i><img src="styles/images/take-photo.png"></i>
+							        		<span>Photo Gallery</span>
+							        	</a>	
+						        	</div>
+					        	</div>
+					        </div>
+			           	</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 OBdetail-R">
+						<div class="funeral-detail">
+							<h2>Funeral Detail</h2>
+							<h3>DATE: <span></span>17/3/2016</h3>
+							<h3>TIME: <span>11:30 AM</span></h3>
+							<h3>LOCATION: <span class="location">Honor Oak Crematorium 32 Blackstone Avenue Sydney NSW 2000</span></h3>
+		                	<div class="ggmap-cnt">
+			                	<iframe  width="100%" height="auto" frameborder="0" style="border:0"
+			                	src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCXOV4bs6ALjB0whupg8EOLSSltUlmrAlc&zoom=18&q=32 Blackstone Avenue Sydney NSW 2000" allowfullscreen>
+			                	</iframe>
+		                	</div>
+						</div>
+					</div>
+					<div class="col-md-8 col-sm-12 col-xs-12 OBdetail-L">
+						<div class="OBdetail_Tab">
+							<ul class="nav nav-tabs">
+							  	<li class="active col-sm-4 col-xs-4"><a href="#WriteaMessage" data-toggle="tab" id="messageTab">Write a Message</a></li>
+							  	<li class="col-sm-4 col-xs-4"><a href="#AddaPhoto" data-toggle="tab" id="photoTab">Add a Photo</a></li>
+							  	<li class="col-sm-4 col-xs-4"><a href="#LightaCandle" data-toggle="tab" id="candlesTab">Light a Candle</a></li>
+							</ul>
+							<div class="tab-content">
+							  	<div class="tab-pane active" id="WriteaMessage">
+								  	<div class="tabPaneTop tabPaneTop1">
+								  		<div class="tabPaneTop_Part">
+								  			<p>Leave a Condolence Message</p>
+								  			<form>
+							  					<!-- <div class="col-sm-12">
+							  						<div class="row">
+							  							<div class="col-sm-4">
+							  								<input class="form-control" type="text" placeholder="Enter your first name">
+							  							</div>
+										  				<div class="col-sm-4">
+										  					<input class="form-control" type="text" placeholder="Enter your last name">
+										  				</div>
+										  				<div class="col-sm-4">
+										  					<input class="form-control" type="email" placeholder="Enter your email address">
+										  				</div>
+							  						</div>
+							  					</div> -->
+								  				<div class="col-sm-12">
+									  				<textarea class="form-control" rows="10" name="message" placeholder="Enter your message"></textarea>
+								  				</div>
+								  				<div class="col-sm-10 col-xs-9 footer_Form_detail_Left pull-left certify meta-form-details">
+													<label class="termslabel">
+														<input type="checkbox" name="messageterms" value="yes">
+														I certify that I understand and agree to Funeral Zone's <a class="iframeignore" href="#" target="_blank"><b>terms and conditions</b></a>
+													</label>
+												</div>
+												<div class="footer_Form_detail col-sm-2 col-xs-3">
+													<input class="btn btn-primary" type="submit" value="SUBMIT">
+												</div>
+								  			</form>
+								  		</div>
+								  	</div>
+							  	</div>
+							  	<div class="tab-pane" id="AddaPhoto">
+								  	<div class="tabPaneTop tabPaneTop2">
+								  		<div class="tabPaneTop_Part">
+								  			<p>Add a photo</p>
+								  			<form>
+							  					<!-- <div class="col-sm-12">
+							  						<div class="row">
+							  							<div class="col-sm-4">
+							  								<input class="form-control" type="text" placeholder="Enter your first name">
+							  							</div>
+										  				<div class="col-sm-4">
+										  					<input class="form-control" type="text" placeholder="Enter your last name">
+										  				</div>
+										  				<div class="col-sm-4">
+										  					<input class="form-control" type="email" placeholder="Enter your email address">
+										  				</div>
+							  						</div>
+								  				</div> -->
+								  				<div class="col-sm-12">
+								  					<input type="file" class="filestyle" data-buttonName="btn-primary" name="add_photo">
+								  				</div>
+								  				<div class="col-sm-10 col-xs-9 footer_Form_detail_Left pull-left certify meta-form-details">
+													<label class="termslabel">
+														<input type="checkbox" name="messageterms" value="yes">
+														I certify that I understand and agree to Funeral Zone's <a class="iframeignore" href="#" target="_blank"><b>terms and conditions</b></a>
+													</label>
+												</div>
+												<div class="footer_Form_detail col-sm-2 col-xs-3">
+													<input class="btn btn-primary" type="submit" value="SUBMIT">
+												</div>
+								  			</form>
+								  		</div>
+								  	</div>
+							  	</div>
+							  	<div class="tab-pane" id="LightaCandle">
+								  	<div class="tabPaneTop tabPaneTop3 ">
+								  		<div class="tabPaneTop_Part" id="form_add_condolence_candle">
+								  			<p>Light a Candles</p>
+								  			<form>
+								  				<input name="csrf_token" value="" type="hidden" id="form_csrf_token">
+								  				<!-- <div class="col-sm-12">
+							  						<div class="row">
+							  							<div class="col-sm-4">
+							  								<input class="form-control" type="text" placeholder="Enter your first name">
+							  							</div>
+										  				<div class="col-sm-4">
+										  					<input class="form-control" type="text" placeholder="Enter your last name">
+										  				</div>
+										  				<div class="col-sm-4">
+										  					<input class="form-control" type="email" placeholder="Enter your email address">
+										  				</div>
+							  						</div>
+							  					</div> -->
+								  				<div class="col-sm-12 candle-select">
+								  					<h3><span>Choose Your Candle</span></h3>
+								  					<div class="pull-left candle-item text-center">
+														<span class="selected-candle"></span>
+														<div class="fz-hidden">
+															<input type="radio" name="candle" value="square-blue">
+														</div>
+														<img src="styles/images/candles/square-blue.png" alt="square-blue">
+													</div>
+													<div class="pull-left candle-item text-center">
+														<span class="selected-candle"></span>
+														<div class="fz-hidden">
+															<input type="radio" name="candle" value="square-green">
+														</div>
+														<img src="styles/images/candles/square-green.png" alt="square-green">
+													</div>
+													<div class="pull-left candle-item text-center ">
+														<span class="selected-candle"></span>
+														<div class="fz-hidden">
+															<input type="radio" name="candle" value="square-pink">
+														</div>
+														<img src="styles/images/candles/square-pink.png" alt="square-pink">
+													</div>
+													<div class="pull-left candle-item text-center ">
+														<span class="selected-candle"></span>
+														<div class="fz-hidden">
+															<input type="radio" name="candle" value="square-puple">
+														</div>
+														<img src="styles/images/candles/square-puple.png" alt="square-puple">
+													</div>
+													<div class="pull-left candle-item text-center ">
+														<span class="selected-candle"></span>
+														<div class="fz-hidden">
+															<input type="radio" name="candle" value="square-red">
+														</div>
+														<img src="styles/images/candles/square-red.png" alt="square-red">
+													</div>
+													<div class="pull-left candle-item text-center ">
+														<span class="selected-candle"></span>
+														<div class="fz-hidden">
+															<input type="radio" name="candle" value="square-yellow">
+														</div>
+														<img src="styles/images/candles/square-yellow.png" alt="square-yellow">
+													</div>
+								  					<div class="pull-left candle-item text-center modern">
+														<span class="selected-candle"></span>
+														<div class="fz-hidden">
+															<input type="radio" name="candle" value="modern-blue">
+														</div>
+														<img src="styles/images/candles/modern-blue.png" alt="modern-blue">
+													</div>
+													<div class="pull-left candle-item text-center modern">
+														<span class="selected-candle"></span>
+														<div class="fz-hidden">
+															<input type="radio" name="candle" value="modern-green">
+														</div>
+														<img src="styles/images/candles/modern-green.png" alt="modern-green">
+													</div>
+													<div class="pull-left candle-item text-center modern ">
+														<span class="selected-candle"></span>
+														<div class="fz-hidden">
+															<input type="radio" name="candle" value="modern-pink">
+														</div>
+														<img src="styles/images/candles/modern-pink.png" alt="modern-pink">
+													</div>
+													<div class="pull-left candle-item text-center modern ">
+														<span class="selected-candle"></span>
+														<div class="fz-hidden">
+															<input type="radio" name="candle" value="modern-puple">
+														</div>
+														<img src="styles/images/candles/modern-puple.png" alt="modern-puple">
+													</div>
+													<div class="pull-left candle-item text-center modern ">
+														<span class="selected-candle"></span>
+														<div class="fz-hidden">
+															<input type="radio" name="candle" value="modern-red">
+														</div>
+														<img src="styles/images/candles/modern-red.png" alt="modern-red">
+													</div>
+													<div class="pull-left candle-item text-center modern ">
+														<span class="selected-candle"></span>
+														<div class="fz-hidden">
+															<input type="radio" name="candle" value="modern-yellow">
+														</div>
+														<img src="styles/images/candles/modern-yellow.png" alt="modern-yellow">
+													</div>
+								  				</div>
+								  				<div class="col-sm-10 col-xs-9 footer_Form_detail_Left pull-left certify meta-form-details">
+													<label class="termslabel">
+														<input type="checkbox" name="messageterms" value="yes">
+														I certify that I understand and agree to Funeral Zone's <a class="iframeignore" href="#" target="_blank"><b>terms and conditions</b></a>
+													</label>
+												</div>
+												<div class="footer_Form_detail col-sm-2 col-xs-3">
+													<input class="btn btn-primary" type="submit" value="SUBMIT">
+												</div>
+								  			</form>
+								  		</div>
+							  		</div>
+							  	</div>
+							</div>
+			            </div>
+				  		<div class="content_cmt">
+				  			<div class="content_cmt_detail_Tab">
+				  				<span class="name_ms">Emma <i>wrote:</i></span>
+				  				<p class="cnt_ms">Lorem ipsum dolor sit amet, dictumst mauris condimentum</p>
+				  				<p class="date_ms">21/07/15</p>
+				  				<hr>
+				  				<div class="comment_ms">
+				  					<span class="name_cmt">
+				  						Victor Michale <i>comment:</i>
+				  					</span>
+				  					<p class="cnt_cmt">Potenti neque varius, quis ipsum blandit proin</p>
+				  					<p class="date_ms">21/07/15</p>
+				  					<hr>
+				  				</div>
+				  			</div>
+				  			<div class="detail_Cmt_Title">
+								<strong data-toggle="collapse" data-target="#collapse1">Comment on this message</strong>
+							</div>
+							<div class="detail_Cmt_Ctn collapse" id="collapse1">
+								<div class="cnt_collapse">
+									<form>
+										<textarea class="form-control" rows="8" name="comment_txt"></textarea>
+										<div class="pull-right btn-wrapper">
+											<input type="submit" value="Submit" class="btn btn-primary">
+										</div>
+									</form>
+								</div>
+							</div>
+				  		</div>
+				  		<div class="litacandle">
+				  			<div class="name_lit">Kayle <i>lit a candle:</i></div>
+				  			<div class="lightcandle">
+				  				<img src="styles/images/candles/square-green.png">
+				  			</div>
+				  			<div class="date-lit"><span>01/02/15</span></div>
+				  		</div>
+				  		<div class="photo_post">				  			
+					  		<div class="postaphoto">
+					  			<div class="name_post">Alana <i>post a photo</i></div>
+					  			<div class="img_post"><img src="styles/images/image20.jpg"></div>
+					  			<hr>
+					  			<p class="date_post">17/03/2016</p>
+					  		</div>
+				  			<div class="detail_Cmt_Title">
+								<strong data-toggle="collapse" data-target="#collapse2">Comment on this photo</strong>
+							</div>
+							<div class="detail_Cmt_Ctn collapse" id="collapse2">
+								<div class="cnt_collapse">
+									<form>
+										<textarea class="form-control" rows="8" name="comment_photo"></textarea>
+										<div class="pull-right btn-wrapper">
+											<input type="submit" value="Submit" class="btn btn-primary">
+										</div>
+									</form>
+								</div>
+							</div>
+				  		</div>
+					</div>
+				</div>
+            </div>
+	    </div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="footer-top">
+					<div class="footer-logo col-sm-2">
+						<a href="homepage.html">
+							<img src="styles/images/logo.png">
+						</a>
+					</div>
+					<div class="footer-social-link pull-right col-sm-8">
+						<div class="footer-social">
+							<ul>
+								<li class="pull-right"><a href="#"><a class="btn btn-social-icon btn-google" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-google']);"><span class="fa fa-google-plus"></span></a></li>
+								<li class="pull-right"><a class="btn btn-social-icon btn-twitter" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);"><span class="fa fa-twitter"></span></a></li>
+								<li class="pull-right"><a class="btn btn-social-icon btn-facebook" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);"><span class="fa fa-facebook"></span></a></li>
+							</ul>
+						</div>
+						<div class="footer-top-link">
+							<ul>
+								<li class="pull-right"><a href="contact.html">Contact</a></li>
+								<li class="pull-right"><span>|</span></li>
+								<li class="pull-right"><a href="aboutus.html">About</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bot">
+			<div class="container">				
+				<div class="row">
+					<div class="footer-coppyright col-sm-6 col-xs-6">©2016 All Rights ObituariesLtd</div>
+					<div class="footer-bot-link pul-right col-sm-6 col-xs-6">
+						<ul>
+							<li class="pull-right"><a href="termsofuse.html">Terms of Use</a></li>
+							<li class="pull-right"><span>|</span></li>
+							<li class="pull-right"><a href="privacy-policy.html">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src='styles/js/bootstrap.min.js' type='text/javascript'></script>
+	<script src='styles/js/bootstrap-filestyle.min.js' type='text/javascript'></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(":file").filestyle({buttonName: "btn-primary"});
+			var widthWin = $(window).width();
+			if (widthWin>768) {
+				var height1 = $('.content-home-top .featured-home').innerHeight();
+				$('.cnt-video iframe').height(height1-44);
+			} else {
+				$('.cnt-video iframe').height(widthWin/2);
+			}
+			var height2 = $('.ggmap-cnt iframe').width();
+			if (widthWin>992) {
+				$('.ggmap-cnt iframe').height(height2);
+			}else if (480<widthWin && widthWin<992){
+				$('.ggmap-cnt iframe').height(height2*1/3);
+			}else if(480>widthWin) {
+				$('.ggmap-cnt iframe').height(height2*2/3);
+			}
+		});
+
+		function deselectCandles() {
+			$('.candle-item.active').removeClass('active');
+			$('.candle-item.selected').removeClass('selected');
+		}
+
+		$('.candle-item').on('click', function(e) {
+			e.preventDefault();
+
+			if ($(this).hasClass('selected')) {
+				deselectCandles();
+				$(this).find('input').prop("checked", false);
+				$('.candle-item').find('img').css('opacity', 1);
+			} else {
+				deselectCandles();
+				$(this).addClass('active selected');
+				$(this).find('input').prop("checked", true);
+				$('.candle-item').find('img').css('opacity', 0.5);
+				$(this).find('img').css('opacity', 1);
+			}
+			
+		});
+	</script>
+</body>
+</html>

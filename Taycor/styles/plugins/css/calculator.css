@@ -1,0 +1,373 @@
+*:focus {
+    outline: 0;
+}
+
+.calculator_place {
+    clear: both;
+}
+
+.slider_left {
+    width: 70%;
+    margin: 0 auto 20px;
+    float: none;
+    margin-bottom: 45px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 40px;
+}
+.slider_left:after{
+    position: absolute;
+    content: "";
+    width: 56px;
+    height: 29px;
+    left: 50%;
+    margin-left: -28px;
+    bottom: -74px;
+    background: url(../img/arrow.png) transparent no-repeat;
+}
+.slider_left>h4{
+    text-transform: uppercase;
+    color: #111111;
+}
+.slider_left>h3{
+    color: #0b5398;
+    font-size:36px;
+    margin-bottom: 50px;
+}
+.slider_right {
+    text-align: right;
+    background: #0b5398;
+}
+.cleaner {
+    clear: both;
+    height: 25px;
+}
+#slider,
+#slider2 {
+    margin-left: 60px;
+}
+#slider a,
+#slider2 a {
+    background-image: url(../img/pillSlider.png)!important;
+    background-repeat: no-repeat;
+    width: 159px!important;
+    height: 60px!important;
+    padding-top: 17px;
+    text-decoration: none!important;
+    text-align: center;
+    background-color: transparent!important;
+    border: none!important;
+    cursor: pointer;
+    margin-left: -70px!important;
+    color: #fff!important;
+}
+
+#slider a:focus,
+#slider2 a:focus {
+    outline: none;
+}
+
+.start_amount,
+.end_amount {
+    font-weight: bold;
+    display: inline-block;
+}
+.end_amount {
+    float: right;
+    width: 18%;
+    padding-left: 22px;
+    text-align: center;
+    padding-right: 0;
+}
+.start_amount {
+    float: left;
+    width: 17%;
+    transform: translateX(-12px);
+    text-align: center;
+    padding-left: 0;
+}
+
+.month_listing {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 60px;
+}
+
+.month_listing li {
+    float: left;
+}
+
+.month_listing li:nth-child(1) {
+    width: 21%;
+}
+
+.month_listing li:nth-child(2) {
+    width: 25%;
+}
+
+.month_listing li:nth-child(3) {
+    width: 25%;
+}
+
+.month_listing li:nth-child(4) {
+    width: 18%;
+}
+
+.month_listing_bk li:nth-child(1) {
+    width: 30%;
+}
+
+.month_listing_bk li:nth-child(2) {
+    width: 33%;
+}
+
+.month_listing_bk li:nth-child(3) {
+    width: 10%;
+}
+
+.month_listing_bk li:nth-child(4) {
+    width: 10%;
+    float: right;
+}
+
+.month_listing li a {
+    font-weight: bold;
+    color: #555
+}
+
+.month_listing li a:hover {
+    text-decoration: none;
+}
+
+.slider_right .box {
+    width: 25%;
+    padding: 10px 10px 10px 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin:60px 0;
+    float: left;
+    text-align: center;
+    text-align: center;
+    border-left: 1px solid #054068;
+    /*line-height:45px;*/
+}
+
+.slider_right .box.box-btn{
+    border-left: 0;
+}
+.slider_right .box.box-btn a{
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    background: #08aa5b;
+    border-radius: 5px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.slider_right .box.box-btn a:hover{
+    background: #07934f;
+}
+.slider_right .box h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.slider_right .box input[type="text"] {
+    background: transparent;
+    border: none;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    width: 100%;
+}
+
+.slider_right .box .estimated_payment {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    height: 30px;
+    padding-top: 4px;
+}
+
+.bymonth {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.slider_right input[type="submit"] {
+    font-size: 22px;
+}
+
+.ui-widget-header {
+    background-color: #043d63;
+}
+
+@media screen and (max-width: 991px) {
+    .month_listing,
+    .hide_on_mobile {
+        display: none;
+    }
+    .slider_left,
+    .slider_right {
+        width: 100%;
+    }
+    .start_amount {
+        padding-left: 27px;
+    }
+    .end_amount {
+        padding-right: 80px;
+    }
+    .slider_right .box {
+        width: 31.5%;
+        margin: 60px 0 30px;
+    }
+    .slider_right .box.box-btn {
+        margin: 0 auto 20px;
+        width: 100%;
+    }
+    #slider,
+    #slider2 {
+        width: 85%;
+        margin-left: 4%;
+    }
+    #slider a,
+    #slider2 a {
+        margin-left: -50px!important;
+    }
+}
+
+@media screen and (max-width:750px) {
+    #slider,
+    #slider2 {
+        margin-left: 5%;
+    }
+    #slider a,
+    #slider2 a {
+        margin-left: -30px!important;
+        white-space: nowrap;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3e79ad+0,195c93+50,074679+100 */
+        background: rgb(62,121,173)!important; /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(62,121,173,1) 0%, rgba(25,92,147,1) 50%, rgba(7,70,121,1) 100%)!important; /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  rgba(62,121,173,1) 0%,rgba(25,92,147,1) 50%,rgba(7,70,121,1) 100%)!important; /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  rgba(62,121,173,1) 0%,rgba(25,92,147,1) 50%,rgba(7,70,121,1) 100%)!important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e79ad', endColorstr='#074679',GradientType=0 )!important; /* IE6-9 */
+
+        height: 40px!important;
+        width: 80px!important;
+        top: -15px;
+    }
+    .start_amount,
+    .end_amount {
+        display: none
+    }
+    #slider a,
+    #slider2 a {
+        color: white!important;
+        font-weight: normal;
+        padding-top: 9px!important;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .slider_right .box {
+        width: 50%;
+        margin: 40px 0 30px;
+    }
+    .slider_right .box.box-btn{
+        width: 50%;
+        margin: 40px 0 30px;
+        border-left: 1px solid #054068;
+    }
+    .slider_right {
+        text-align: center;
+    }
+    .slider_left{
+        margin-bottom: 0;
+        padding-bottom: 20px;
+    }
+    .slider_left:after{
+        bottom: -29px;
+    }
+    .slider_left>h3{
+        font-size: 24px;
+        margin-top: 0;
+    }
+    .slider_left>h4{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:480px) {
+    .slider_right .box {
+        width: 100%;
+        margin: 20px 0 0;
+        border: 0;
+        border-bottom: 1px solid #054068;
+        padding-bottom: 20px;
+    }
+    .slider_right .box.box-btn{
+        width: 100%;
+        margin: 20px 0 20px ;
+        border: 0;
+    }
+}
+
+.mini_slider {
+    padding: 0 10px 40px 17px;
+    text-align: left;
+    position: relative;
+}
+
+.mini_slider .min-value {
+    float: left;
+    text-align: left;
+    width: 50%;
+}
+
+.mini_slider .max-value {
+    float: left;
+    text-align: right;
+    width: 50%;
+}
+
+.mini_slider .financing-amount {
+    font-weight: bold;
+    font-size: 18px;
+    top: 40px!important;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.adjust_left_margin .financing-amount {
+    left: 20px!important;
+}
+
+#amount_to_finance .ui-slider-handle,
+#time_in_business .ui-slider-handle,
+#million_slider .ui-slider-handle {
+    top: -4px!important;
+    margin-left: 0px;
+}
+
+.adjust_margin .financing-amount {
+    left: 168.65px !important;
+}
+
+.adjust_margin_text .financing-amount {
+    left: 144.65px !important;
+}
+
+.adjust_margin .ui-slider-handle {
+    margin-left: -1em!important;
+}
+
+.new_sidebar_form_look .adjust_margin .financing-amount {
+    left: 264.65px !important;
+}
+
+.new_sidebar_form_look .adjust_margin_text .financing-amount {
+    left: 241px !important;
+}

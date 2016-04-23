@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Taycor Laravel</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="styles/css/media.css">
+	<link rel="stylesheet" type="text/css" href="styles/css/animate.css">
+</head>
+<body class="simple_form_page">
+	<div class="simple_form_page_Left col-lg-3 col-sm-4">
+		<div class="row">
+			<div class="simple_Menu">
+				<div class="simple_Menu_title">Taycor financial <span><i>equipment leasing & financing</i></span></div>
+				<ul>
+					<li>
+						<a alt="1" href="javascript:void(0)" class="company visited active">
+							<span>Company Information<i class="glyphicon glyphicon-ok"></i></span>
+							<p>Please complete all fields marked with an asterisk (*)
+							</p>
+						</a>
+					</li>
+					<li>
+						<a alt="2" href="javascript:void(0)" class="principal">
+						<span>Address information<i class="glyphicon glyphicon-ok"></i></span>
+						<p>Please provide for all person(s) with 20% or more ownership</p>
+						</a>
+					</li>
+					<li>
+						<a alt="3" href="javascript:void(0)" class="ownership">
+							<span>Ownership Information<i class="glyphicon glyphicon-ok"></i></span>
+							<p>Or fax the invoice/equipment description to toll-free (800) 864-0082</p>
+						</a>
+					</li>
+					<li>
+						<a alt="4" href="javascript:void(0)" class="equipment">
+							<span>Equipment Information<i class="glyphicon glyphicon-ok"></i></span>
+							<p>Or fax the invoice/equipment description to toll-free (800) 864-0082</p>
+						</a>
+					</li>
+					<li>
+						<a alt="5" href="javascript:void(0)" class="authorization">
+							<span>Authorization<i class="glyphicon glyphicon-ok"></i></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="simple_form_page_Right col-lg-9 col-sm-8">
+		<div class="row">
+			<section alt="1" id="company" class="section_class active">
+				<div class="company_Left col-lg-6 col-sm-12">
+					<div class="company_icon"></div>
+					<h2>Create your sign-in credentials</h2>
+					<p>Choose a username and a passphrase. We use passphrases because they're more secure and easier to remember. Try using a phrase you'll remember (like "Mary had a little lamb!"), or a few random words that would sound funny together (like "correct horse battery staple").</p>
+				</div>
+				<div class="company_Right col-lg-6 col-sm-12">
+					<form>
+						<div class="form_group">
+							<label>Company Name:</label>
+							<input type="text" name="companyname" id="companyname">
+							<p class="error">Name cannot be blank.</p>
+						</div>
+						<div class="form_group form_groupdouble ">
+							<div>
+								<label>First Name:</label>
+								<input type="text" name="contactFname" id="contactFname">
+								<p class="error">First Name cannot be blank.</p>
+							</div>
+							<div>
+								<label>Last Name:</label>
+								<input type="text" name="contactLname" id="contactLname">
+								<p class="error">Last Name cannot be blank.</p>
+							</div>
+						</div>
+						
+						<div class="form_group">
+							<label> Phone Number:</label>
+							<input type="number" name="phonenum" id="phonenum">
+							<p class="error">Phone cannot be blank.</p>
+						</div>
+						<button class="next step1">Next</button>
+					</form>
+				</div>
+			</section>
+
+			<section alt="2" id="Principal" class="section_class">
+				<div class="company_Left col-lg-6 col-sm-12">
+					<div class="Principal_icon"></div>
+					<h2>Tell us about yourself</h2>
+					<p>We'll use this info to verify your identity and check your eligibility to open an account with our partner bank. We'll review your banking history, but we don't check your credit history or your FICO credit score.</p>
+				</div>
+				<div class="company_Right col-lg-6 col-sm-12">
+					<form>
+						<div class="form_group ">
+							<label>Street Address:</label>
+							<input type="text" name="streetadd">
+							<p class="error">Street Address cannot be blank.</p>
+						</div>
+						<div class="form_group ">
+							<label>City:</label>
+							<input type="text" name="city">
+							<p class="error">City cannot be blank.</p>
+						</div>
+						<div class="form_group form_group_st2 form_groupdouble">
+							<div>
+								<label>State:</label>
+								<select tabindex="4" name="inpCompState" id="inpCompState" class="left">
+									<option value=""></option>
+									<option value="AL">Alabama</option>
+									<option value="AK">Alaska</option>
+									<option value="AZ">Arizona</option>
+									<option value="AR">Arkansas</option>
+									<option value="CA">California</option>
+									<option value="CO">Colorado</option>
+									<option value="CT">Connecticut</option>
+									<option value="DE">Delaware</option>
+									<option value="DC">District of Columbia</option>
+									<option value="FL">Florida</option>
+									<option value="GA">Georgia</option>
+									<option value="HI">Hawaii</option>
+									<option value="ID">Idaho</option>
+									<option value="IL">Illinois</option>
+									<option value="IN">Indiana</option>
+									<option value="IA">Iowa</option>
+									<option value="KS">Kansas</option>
+									<option value="KY">Kentucky</option>
+									<option value="LA">Louisiana</option>
+									<option value="ME">Maine</option>
+									<option value="MD">Maryland</option>
+									<option value="MA">Massachusetts</option>
+									<option value="MI">Michigan</option>
+									<option value="MN">Minnesota</option>
+									<option value="MS">Mississippi</option>
+									<option value="MO">Missouri</option>
+									<option value="MT">Montana</option>
+									<option value="NE">Nebraska</option>
+									<option value="NV">Nevada</option>
+									<option value="NH">New Hampshire</option>
+									<option value="NJ">New Jersey</option>
+									<option value="NM">New Mexico</option>
+									<option value="NY">New York</option>
+									<option value="NC">North Carolina</option>
+									<option value="ND">North Dakota</option>
+									<option value="OH">Ohio</option>
+									<option value="OK">Oklahoma</option>
+									<option value="OR">Oregon</option>
+									<option value="PA">Pennsylvania</option>
+									<option value="RI">Rhode Island</option>
+									<option value="SC">South Carolina</option>
+									<option value="SD">South Dakota</option>
+									<option value="TN">Tennessee</option>
+									<option value="TX">Texas</option>
+									<option value="UT">Utah</option>
+									<option value="VT">Vermont</option>
+									<option value="VA">Virginia</option>
+									<option value="WA">Washington</option>
+									<option value="WV">West Virginia</option>
+									<option value="WI">Wisconsin</option>
+									<option value="WY">Wyoming</option>
+								</select>
+							</div>
+							<div>
+								<label>Zip:</label>
+								<input type="text" name="zip">
+								<p class="error">Zip cannot be blank.</p>
+							</div>
+							<div>
+								<label>Country:</label>
+								<input type="text" name="">
+								<p class="error">Country cannot be blank.</p>
+							</div>
+						</div>
+						
+						<button class="next step2">Next</button>
+					</form>
+				</div>
+			</section>
+			<section alt="3" id="ownership" class="section_class">
+				<div class="company_Left col-lg-6 col-sm-12">
+					<div class="equipment_icon"></div>
+					<h2></h2>
+					<p>This won't affect your application, and you're not required to limit yourself to the numbers you choose here, so just make your best guess! We're collecting this info now so we can more easily identify potentially-suspicious or unusual activity on your account in the future.</p>
+				</div>
+				<div class="company_Right col-lg-6 col-sm-12">
+					<form>
+						<div class="step3_Part1">
+							<div class="form_group form_groupdouble">
+								<div>
+									<label>First Name:</label>
+									<input type="text" name="" id="">
+									<p class="error">First Name cannot be blank.</p>
+								</div>
+								<div>
+									<label>Last Name:</label>
+									<input type="text" name="" id="">
+									<p class="error">Last Name cannot be blank.</p>
+								</div>
+							</div>
+							<div class="form_group form_groupdouble">
+								<div>
+									<label> Email Address:</label>
+									<input type="email" name="EAdd" id="EAdd">
+								</div>
+								<div>
+									<label>Title:</label>
+									<input type="text" name="">
+									<p class="error">Title cannot be blank.</p>
+								</div>
+							</div>
+							<div class="form_group form_groupdouble">
+								<div>
+									<label> Ownership:</label>
+									<input type="text" name="">
+									<p class="error">Ownership cannot be blank.</p>
+								</div>
+								<div class="form_groupsecurity">
+									<label> Social security #:</label>
+									<input type="password" placeholder="000-00-0000" >
+									<span><i class="material-icons dp48">lock_outline</i></span>
+									<p class="error">Security cannot be blank.</p>
+								</div>
+							</div>
+							<div class="addCountries">
+								<div id="content_addcountries">
+									<!-- <div class="ctn_addctr ctn_addctr1 ">
+										<div></div>
+										<span class="glyphicon glyphicon-remove"></span>
+									</div>
+									<div class="ctn_addctr ctn_addctr2 ">
+										<div></div>
+										<span class="glyphicon glyphicon-remove"></span>
+									</div>
+									<div class="ctn_addctr ctn_addctr3 ">
+										<div></div>
+										<span class="glyphicon glyphicon-remove"></span>
+									</div> -->
+								</div>
+								<a href="javascript:void(0)">Add Owners and Officers</a>
+							</div>
+						</div>
+						
+						<button class="next step3">Next</button>
+					</form>
+				</div>
+				<div class="addCountries_Part col-lg-6 col-sm-12">
+				<div class="addCountries_Part_ch">
+					<div class="full-bleed-form international-countries-inner show">
+				      <div class="international-countries-header">
+				        <h3 class="h6">Choose up to three<span class="">x</span></h3>
+				      </div>
+				      <div class="search-input">
+				        <input type="text" name="" class="text-input full-input international-countries-input optional" placeholder="Enter a country name to filter">
+				      </div>
+				      <div  class="countries-list_Part">
+				      <ul class="countries-list">
+				        <li data-value="2" data-text="Akrotiri"><span class="icon-check-mark"></span><span class="international-country-name">Akrotiri</span></li>
+				        <li data-value="4" data-text="Alderney"><span class="icon-check-mark"></span><span class="international-country-name">Alderney</span></li>
+				        <li data-value="5" data-text="Algeria"><span class="icon-check-mark"></span><span class="international-country-name">Algeria</span></li>
+				        <li data-value="6" data-text="American Samoa"><span class="icon-check-mark"></span><span class="international-country-name">American Samoa</span></li>
+				        <li data-value="7" data-text="Andorra"><span class="icon-check-mark"></span><span class="international-country-name">Andorra</span></li>
+				        <li data-value="9" data-text="Anguilla"><span class="icon-check-mark"></span><span class="international-country-name">Anguilla</span></li>
+				        <li data-value="10" data-text="Antarctica"><span class="icon-check-mark"></span><span class="international-country-name">Antarctica</span></li>
+				        <li data-value="11" data-text="Antigua and Barbuda"><span class="icon-check-mark"></span><span class="international-country-name">Antigua and Barbuda</span></li>
+				        <li data-value="12" data-text="Argentina"><span class="icon-check-mark"></span><span class="international-country-name">Argentina</span></li>
+				        <li data-value="13" data-text="Armenia"><span class="icon-check-mark"></span><span class="international-country-name">Armenia</span></li>
+				        <li data-value="14" data-text="Aruba"><span class="icon-check-mark"></span><span class="international-country-name">Aruba</span></li>
+				        <li data-value="15" data-text="Ascension Island"><span class="icon-check-mark"></span><span class="international-country-name">Ascension Island</span></li>
+				        <li data-value="16" data-text="Ashmore and Cartier Islands"><span class="icon-check-mark"></span><span class="international-country-name">Ashmore and Cartier Islands</span></li>
+				        <li data-value="17" data-text="Australia"><span class="icon-check-mark"></span><span class="international-country-name">Australia</span></li>
+				        <li data-value="18" data-text="Austria"><span class="icon-check-mark"></span><span class="international-country-name">Austria</span></li>
+				        <li data-value="19" data-text="Azerbaijan"><span class="icon-check-mark"></span><span class="international-country-name">Azerbaijan</span></li>
+				        <li data-value="20" data-text="The Bahamas"><span class="icon-check-mark"></span><span class="international-country-name">The Bahamas</span></li>
+				        <li data-value="21" data-text="Bahrain"><span class="icon-check-mark"></span><span class="international-country-name">Bahrain</span></li>
+				        <li data-value="22" data-text="Baker Island"><span class="icon-check-mark"></span><span class="international-country-name">Baker Island</span></li>
+				        <li data-value="23" data-text="Bangladesh"><span class="icon-check-mark"></span><span class="international-country-name">Bangladesh</span></li>
+				        <li data-value="24" data-text="Barbados"><span class="icon-check-mark"></span><span class="international-country-name">Barbados</span></li>
+				        <li data-value="26" data-text="Belgium"><span class="icon-check-mark"></span><span class="international-country-name">Belgium</span></li>
+				        <li data-value="27" data-text="Belize"><span class="icon-check-mark"></span><span class="international-country-name">Belize</span></li>
+				        <li data-value="28" data-text="Benin"><span class="icon-check-mark"></span><span class="international-country-name">Benin</span></li>
+				        <li data-value="29" data-text="Bermuda"><span class="icon-check-mark"></span><span class="international-country-name">Bermuda</span></li>
+				        <li data-value="30" data-text="Bhutan"><span class="icon-check-mark"></span><span class="international-country-name">Bhutan</span></li>
+				        <li data-value="32" data-text="Bonaire"><span class="icon-check-mark"></span><span class="international-country-name">Bonaire</span></li>
+				        <li data-value="34" data-text="Botswana"><span class="icon-check-mark"></span><span class="international-country-name">Botswana</span></li>
+				        <li data-value="35" data-text="Bouvet Island"><span class="icon-check-mark"></span><span class="international-country-name">Bouvet Island</span></li>
+				        <li data-value="36" data-text="Brazil"><span class="icon-check-mark"></span><span class="international-country-name">Brazil</span></li>
+				        <li data-value="37" data-text="British Indian Ocean Territory"><span class="icon-check-mark"></span><span class="international-country-name">British Indian Ocean Territory</span></li>
+				        <li data-value="39" data-text="Bulgaria"><span class="icon-check-mark"></span><span class="international-country-name">Bulgaria</span></li>
+				        <li data-value="40" data-text="Burkina Faso"><span class="icon-check-mark"></span><span class="international-country-name">Burkina Faso</span></li>
+				        <li data-value="42" data-text="Burundi"><span class="icon-check-mark"></span><span class="international-country-name">Burundi</span></li>
+				        <li data-value="43" data-text="Cambodia"><span class="icon-check-mark"></span><span class="international-country-name">Cambodia</span></li>
+				        <li data-value="44" data-text="Cameroon"><span class="icon-check-mark"></span><span class="international-country-name">Cameroon</span></li>
+				        <li data-value="45" data-text="Canada"><span class="icon-check-mark"></span><span class="international-country-name">Canada</span></li>
+				        <li data-value="46" data-text="Cape Verde"><span class="icon-check-mark"></span><span class="international-country-name">Cape Verde</span></li>
+				        <li data-value="47" data-text="Cayman Islands"><span class="icon-check-mark"></span><span class="international-country-name">Cayman Islands</span></li>
+				        <li data-value="48" data-text="Central African Republic"><span class="icon-check-mark"></span><span class="international-country-name">Central African Republic</span></li>
+				        <li data-value="49" data-text="Chad"><span class="icon-check-mark"></span><span class="international-country-name">Chad</span></li>
+				        <li data-value="50" data-text="Chile"><span class="icon-check-mark"></span><span class="international-country-name">Chile</span></li>
+				        <li data-value="51" data-text="China"><span class="icon-check-mark"></span><span class="international-country-name">China</span></li>
+				        <li data-value="52" data-text="Christmas Island"><span class="icon-check-mark"></span><span class="international-country-name">Christmas Island</span></li>
+				        <li data-value="53" data-text="Clipperton Island"><span class="icon-check-mark"></span><span class="international-country-name">Clipperton Island</span></li>
+				        <li data-value="54" data-text="Cocos (Keeling) Islands"><span class="icon-check-mark"></span><span class="international-country-name">Cocos (Keeling) Islands</span></li>
+				        <li data-value="56" data-text="Comoros"><span class="icon-check-mark"></span><span class="international-country-name">Comoros</span></li>
+				        <li data-value="59" data-text="Cook Islands"><span class="icon-check-mark"></span><span class="international-country-name">Cook Islands</span></li>
+				        <li data-value="60" data-text="Coral Sea Islands"><span class="icon-check-mark"></span><span class="international-country-name">Coral Sea Islands</span></li>
+				        <li data-value="61" data-text="Costa Rica"><span class="icon-check-mark"></span><span class="international-country-name">Costa Rica</span></li>
+				        <li data-value="65" data-text="Curacao"><span class="icon-check-mark"></span><span class="international-country-name">Curacao</span></li>
+				        <li data-value="66" data-text="Cyprus"><span class="icon-check-mark"></span><span class="international-country-name">Cyprus</span></li>
+				        <li data-value="67" data-text="Cyprus, Turkish Cypriot Administered"><span class="icon-check-mark"></span><span class="international-country-name">Cyprus, Turkish Cypriot Administered</span></li>
+				        <li data-value="68" data-text="Czech Republic"><span class="icon-check-mark"></span><span class="international-country-name">Czech Republic</span></li>
+				        <li data-value="69" data-text="Denmark"><span class="icon-check-mark"></span><span class="international-country-name">Denmark</span></li>
+				        <li data-value="70" data-text="Dhekelia"><span class="icon-check-mark"></span><span class="international-country-name">Dhekelia</span></li>
+				        <li data-value="71" data-text="Djibouti"><span class="icon-check-mark"></span><span class="international-country-name">Djibouti</span></li>
+				        <li data-value="72" data-text="Dominica"><span class="icon-check-mark"></span><span class="international-country-name">Dominica</span></li>
+				        <li data-value="73" data-text="Dominican Republic"><span class="icon-check-mark"></span><span class="international-country-name">Dominican Republic</span></li>
+				        <li data-value="74" data-text="Ecuador"><span class="icon-check-mark"></span><span class="international-country-name">Ecuador</span></li>
+				        <li data-value="75" data-text="Egypt"><span class="icon-check-mark"></span><span class="international-country-name">Egypt</span></li>
+				        <li data-value="76" data-text="El Salvador"><span class="icon-check-mark"></span><span class="international-country-name">El Salvador</span></li>
+				        <li data-value="77" data-text="Equatorial Guinea"><span class="icon-check-mark"></span><span class="international-country-name">Equatorial Guinea</span></li>
+				        <li data-value="78" data-text="Eritrea"><span class="icon-check-mark"></span><span class="international-country-name">Eritrea</span></li>
+				        <li data-value="79" data-text="Estonia"><span class="icon-check-mark"></span><span class="international-country-name">Estonia</span></li>
+				        <li data-value="80" data-text="Ethiopia"><span class="icon-check-mark"></span><span class="international-country-name">Ethiopia</span></li>
+				        <li data-value="81" data-text="Falkland Islands (Islas Malvinas)"><span class="icon-check-mark"></span><span class="international-country-name">Falkland Islands (Islas Malvinas)</span></li>
+				        <li data-value="82" data-text="Faroe Islands"><span class="icon-check-mark"></span><span class="international-country-name">Faroe Islands</span></li>
+				        <li data-value="83" data-text="Fiji"><span class="icon-check-mark"></span><span class="international-country-name">Fiji</span></li>
+				        <li data-value="84" data-text="Finland"><span class="icon-check-mark"></span><span class="international-country-name">Finland</span></li>
+				        <li data-value="85" data-text="France"><span class="icon-check-mark"></span><span class="international-country-name">France</span></li>
+				        <li data-value="86" data-text="French Guiana"><span class="icon-check-mark"></span><span class="international-country-name">French Guiana</span></li>
+				        <li data-value="87" data-text="French Polynesia"><span class="icon-check-mark"></span><span class="international-country-name">French Polynesia</span></li>
+				        <li data-value="88" data-text="French Southern and Arctic Lands"><span class="icon-check-mark"></span><span class="international-country-name">French Southern and Arctic Lands</span></li>
+				        <li data-value="89" data-text="Gabon"><span class="icon-check-mark"></span><span class="international-country-name">Gabon</span></li>
+				        <li data-value="90" data-text="Gambia"><span class="icon-check-mark"></span><span class="international-country-name">Gambia</span></li>
+				        <li data-value="91" data-text="Georgia"><span class="icon-check-mark"></span><span class="international-country-name">Georgia</span></li>
+				        <li data-value="92" data-text="Germany"><span class="icon-check-mark"></span><span class="international-country-name">Germany</span></li>
+				        <li data-value="93" data-text="Ghana"><span class="icon-check-mark"></span><span class="international-country-name">Ghana</span></li>
+				        <li data-value="94" data-text="Gibraltar"><span class="icon-check-mark"></span><span class="international-country-name">Gibraltar</span></li>
+				        <li data-value="95" data-text="Greece"><span class="icon-check-mark"></span><span class="international-country-name">Greece</span></li>
+				        <li data-value="96" data-text="Greenland"><span class="icon-check-mark"></span><span class="international-country-name">Greenland</span></li>
+				        <li data-value="97" data-text="Grenada"><span class="icon-check-mark"></span><span class="international-country-name">Grenada</span></li>
+				        <li data-value="98" data-text="Guadeloupe"><span class="icon-check-mark"></span><span class="international-country-name">Guadeloupe</span></li>
+				        <li data-value="99" data-text="Guam"><span class="icon-check-mark"></span><span class="international-country-name">Guam</span></li>
+				        <li data-value="100" data-text="Guatemala"><span class="icon-check-mark"></span><span class="international-country-name">Guatemala</span></li>
+				        <li data-value="101" data-text="Guernsey"><span class="icon-check-mark"></span><span class="international-country-name">Guernsey</span></li>
+				        <li data-value="102" data-text="Guinea"><span class="icon-check-mark"></span><span class="international-country-name">Guinea</span></li>
+				        <li data-value="103" data-text="Guinea-Bissau"><span class="icon-check-mark"></span><span class="international-country-name">Guinea-Bissau</span></li>
+				        <li data-value="104" data-text="Guyana"><span class="icon-check-mark"></span><span class="international-country-name">Guyana</span></li>
+				        <li data-value="105" data-text="Haiti"><span class="icon-check-mark"></span><span class="international-country-name">Haiti</span></li>
+				        <li data-value="106" data-text="Heard and McDonald Islands"><span class="icon-check-mark"></span><span class="international-country-name">Heard and McDonald Islands</span></li>
+				        <li data-value="107" data-text="Herm"><span class="icon-check-mark"></span><span class="international-country-name">Herm</span></li>
+				        <li data-value="108" data-text="Holy See (Vatican City)"><span class="icon-check-mark"></span><span class="international-country-name">Holy See (Vatican City)</span></li>
+				        <li data-value="109" data-text="Honduras"><span class="icon-check-mark"></span><span class="international-country-name">Honduras</span></li>
+				        <li data-value="110" data-text="Hong Kong"><span class="icon-check-mark"></span><span class="international-country-name">Hong Kong</span></li>
+				        <li data-value="111" data-text="Howland Island"><span class="icon-check-mark"></span><span class="international-country-name">Howland Island</span></li>
+				        <li data-value="112" data-text="Hungary"><span class="icon-check-mark"></span><span class="international-country-name">Hungary</span></li>
+				        <li data-value="113" data-text="Iceland"><span class="icon-check-mark"></span><span class="international-country-name">Iceland</span></li>
+				        <li data-value="114" data-text="Ile Amsterdam"><span class="icon-check-mark"></span><span class="international-country-name">Ile Amsterdam</span></li>
+				        <li data-value="115" data-text="Ile Saint-Paul"><span class="icon-check-mark"></span><span class="international-country-name">Ile Saint-Paul</span></li>
+				        <li data-value="116" data-text="Iles Crozet"><span class="icon-check-mark"></span><span class="international-country-name">Iles Crozet</span></li>
+				        <li data-value="117" data-text="Iles des Saintes"><span class="icon-check-mark"></span><span class="international-country-name">Iles des Saintes</span></li>
+				        <li data-value="118" data-text="Iles Eparses"><span class="icon-check-mark"></span><span class="international-country-name">Iles Eparses</span></li>
+				        <li data-value="119" data-text="Iles Kerguelen"><span class="icon-check-mark"></span><span class="international-country-name">Iles Kerguelen</span></li>
+				        <li data-value="120" data-text="India"><span class="icon-check-mark"></span><span class="international-country-name">India</span></li>
+				        <li data-value="121" data-text="Indonesia"><span class="icon-check-mark"></span><span class="international-country-name">Indonesia</span></li>
+				        <li data-value="124" data-text="Ireland"><span class="icon-check-mark"></span><span class="international-country-name">Ireland</span></li>
+				        <li data-value="125" data-text="Isle of Man"><span class="icon-check-mark"></span><span class="international-country-name">Isle of Man</span></li>
+				        <li data-value="126" data-text="Israel"><span class="icon-check-mark"></span><span class="international-country-name">Israel</span></li>
+				        <li data-value="127" data-text="Italy"><span class="icon-check-mark"></span><span class="international-country-name">Italy</span></li>
+				        <li data-value="128" data-text="Jamaica"><span class="icon-check-mark"></span><span class="international-country-name">Jamaica</span></li>
+				        <li data-value="129" data-text="Jan Mayen"><span class="icon-check-mark"></span><span class="international-country-name">Jan Mayen</span></li>
+				        <li data-value="130" data-text="Japan"><span class="icon-check-mark"></span><span class="international-country-name">Japan</span></li>
+				        <li data-value="131" data-text="Jarvis Island"><span class="icon-check-mark"></span><span class="international-country-name">Jarvis Island</span></li>
+				        <li data-value="132" data-text="Jersey"><span class="icon-check-mark"></span><span class="international-country-name">Jersey</span></li>
+				        <li data-value="133" data-text="Johnston Atoll"><span class="icon-check-mark"></span><span class="international-country-name">Johnston Atoll</span></li>
+				        <li data-value="134" data-text="Jordan"><span class="icon-check-mark"></span><span class="international-country-name">Jordan</span></li>
+				        <li data-value="135" data-text="Kazakhstan"><span class="icon-check-mark"></span><span class="international-country-name">Kazakhstan</span></li>
+				        <li data-value="136" data-text="Kenya"><span class="icon-check-mark"></span><span class="international-country-name">Kenya</span></li>
+				        <li data-value="137" data-text="Kingman Reef"><span class="icon-check-mark"></span><span class="international-country-name">Kingman Reef</span></li>
+				        <li data-value="138" data-text="Kiribati"><span class="icon-check-mark"></span><span class="international-country-name">Kiribati</span></li>
+				        <li data-value="140" data-text="Korea, South"><span class="icon-check-mark"></span><span class="international-country-name">Korea, South</span></li>
+				        <li data-value="141" data-text="Kosovo"><span class="icon-check-mark"></span><span class="international-country-name">Kosovo</span></li>
+				        <li data-value="142" data-text="Kuwait"><span class="icon-check-mark"></span><span class="international-country-name">Kuwait</span></li>
+				        <li data-value="144" data-text="La Desirade"><span class="icon-check-mark"></span><span class="international-country-name">La Desirade</span></li>
+				        <li data-value="145" data-text="Laos"><span class="icon-check-mark"></span><span class="international-country-name">Laos</span></li>
+				        <li data-value="148" data-text="Lesotho"><span class="icon-check-mark"></span><span class="international-country-name">Lesotho</span></li>
+				        <li data-value="151" data-text="Liechtenstein"><span class="icon-check-mark"></span><span class="international-country-name">Liechtenstein</span></li>
+				        <li data-value="152" data-text="Lithuania"><span class="icon-check-mark"></span><span class="international-country-name">Lithuania</span></li>
+				        <li data-value="153" data-text="Luxembourg"><span class="icon-check-mark"></span><span class="international-country-name">Luxembourg</span></li>
+				        <li data-value="154" data-text="Macau"><span class="icon-check-mark"></span><span class="international-country-name">Macau</span></li>
+				        <li data-value="156" data-text="Madagascar"><span class="icon-check-mark"></span><span class="international-country-name">Madagascar</span></li>
+				        <li data-value="157" data-text="Malawi"><span class="icon-check-mark"></span><span class="international-country-name">Malawi</span></li>
+				        <li data-value="158" data-text="Malaysia"><span class="icon-check-mark"></span><span class="international-country-name">Malaysia</span></li>
+				        <li data-value="159" data-text="Maldives"><span class="icon-check-mark"></span><span class="international-country-name">Maldives</span></li>
+				        <li data-value="160" data-text="Mali"><span class="icon-check-mark"></span><span class="international-country-name">Mali</span></li>
+				        <li data-value="161" data-text="Malta"><span class="icon-check-mark"></span><span class="international-country-name">Malta</span></li>
+				        <li data-value="162" data-text="Marie-Galante"><span class="icon-check-mark"></span><span class="international-country-name">Marie-Galante</span></li>
+				        <li data-value="163" data-text="Marshall Islands"><span class="icon-check-mark"></span><span class="international-country-name">Marshall Islands</span></li>
+				        <li data-value="164" data-text="Martinique"><span class="icon-check-mark"></span><span class="international-country-name">Martinique</span></li>
+				        <li data-value="165" data-text="Mauritania"><span class="icon-check-mark"></span><span class="international-country-name">Mauritania</span></li>
+				        <li data-value="166" data-text="Mauritius"><span class="icon-check-mark"></span><span class="international-country-name">Mauritius</span></li>
+				        <li data-value="167" data-text="Mayotte"><span class="icon-check-mark"></span><span class="international-country-name">Mayotte</span></li>
+				        <li data-value="168" data-text="Mexico"><span class="icon-check-mark"></span><span class="international-country-name">Mexico</span></li>
+				        <li data-value="169" data-text="Micronesia"><span class="icon-check-mark"></span><span class="international-country-name">Micronesia</span></li>
+				        <li data-value="170" data-text="Midway Islands"><span class="icon-check-mark"></span><span class="international-country-name">Midway Islands</span></li>
+				        <li data-value="172" data-text="Monaco"><span class="icon-check-mark"></span><span class="international-country-name">Monaco</span></li>
+				        <li data-value="173" data-text="Mongolia"><span class="icon-check-mark"></span><span class="international-country-name">Mongolia</span></li>
+				        <li data-value="174" data-text="Montenegro"><span class="icon-check-mark"></span><span class="international-country-name">Montenegro</span></li>
+				        <li data-value="175" data-text="Montserrat"><span class="icon-check-mark"></span><span class="international-country-name">Montserrat</span></li>
+				        <li data-value="176" data-text="Morocco"><span class="icon-check-mark"></span><span class="international-country-name">Morocco</span></li>
+				        <li data-value="177" data-text="Mozambique"><span class="icon-check-mark"></span><span class="international-country-name">Mozambique</span></li>
+				        <li data-value="179" data-text="Nauru"><span class="icon-check-mark"></span><span class="international-country-name">Nauru</span></li>
+				        <li data-value="180" data-text="Navassa Island"><span class="icon-check-mark"></span><span class="international-country-name">Navassa Island</span></li>
+				        <li data-value="181" data-text="Nepal"><span class="icon-check-mark"></span><span class="international-country-name">Nepal</span></li>
+				        <li data-value="182" data-text="Netherlands"><span class="icon-check-mark"></span><span class="international-country-name">Netherlands</span></li>
+				        <li data-value="183" data-text="New Caledonia"><span class="icon-check-mark"></span><span class="international-country-name">New Caledonia</span></li>
+				        <li data-value="184" data-text="New Zealand"><span class="icon-check-mark"></span><span class="international-country-name">New Zealand</span></li>
+				        <li data-value="185" data-text="Nicaragua"><span class="icon-check-mark"></span><span class="international-country-name">Nicaragua</span></li>
+				        <li data-value="186" data-text="Niger"><span class="icon-check-mark"></span><span class="international-country-name">Niger</span></li>
+				        <li data-value="188" data-text="Niue"><span class="icon-check-mark"></span><span class="international-country-name">Niue</span></li>
+				        <li data-value="189" data-text="Norfolk Island"><span class="icon-check-mark"></span><span class="international-country-name">Norfolk Island</span></li>
+				        <li data-value="190" data-text="Northern Mariana Islands"><span class="icon-check-mark"></span><span class="international-country-name">Northern Mariana Islands</span></li>
+				        <li data-value="191" data-text="Norway"><span class="icon-check-mark"></span><span class="international-country-name">Norway</span></li>
+				        <li data-value="192" data-text="Oman"><span class="icon-check-mark"></span><span class="international-country-name">Oman</span></li>
+				        <li data-value="193" data-text="Pakistan"><span class="icon-check-mark"></span><span class="international-country-name">Pakistan</span></li>
+				        <li data-value="194" data-text="Palau"><span class="icon-check-mark"></span><span class="international-country-name">Palau</span></li>
+				        <li data-value="195" data-text="Palestinian Territories"><span class="icon-check-mark"></span><span class="international-country-name">Palestinian Territories</span></li>
+				        <li data-value="196" data-text="Palmyra Atoll"><span class="icon-check-mark"></span><span class="international-country-name">Palmyra Atoll</span></li>
+				        <li data-value="197" data-text="Panama"><span class="icon-check-mark"></span><span class="international-country-name">Panama</span></li>
+				        <li data-value="198" data-text="Papua New Guinea"><span class="icon-check-mark"></span><span class="international-country-name">Papua New Guinea</span></li>
+				        <li data-value="199" data-text="Paracel Islands"><span class="icon-check-mark"></span><span class="international-country-name">Paracel Islands</span></li>
+				        <li data-value="200" data-text="Paraguay"><span class="icon-check-mark"></span><span class="international-country-name">Paraguay</span></li>
+				        <li data-value="201" data-text="Peru"><span class="icon-check-mark"></span><span class="international-country-name">Peru</span></li>
+				        <li data-value="202" data-text="Philippines"><span class="icon-check-mark"></span><span class="international-country-name">Philippines</span></li>
+				        <li data-value="203" data-text="Pitcairn Islands"><span class="icon-check-mark"></span><span class="international-country-name">Pitcairn Islands</span></li>
+				        <li data-value="204" data-text="Poland"><span class="icon-check-mark"></span><span class="international-country-name">Poland</span></li>
+				        <li data-value="205" data-text="Portugal"><span class="icon-check-mark"></span><span class="international-country-name">Portugal</span></li>
+				        <li data-value="206" data-text="Puerto Rico"><span class="icon-check-mark"></span><span class="international-country-name">Puerto Rico</span></li>
+				        <li data-value="207" data-text="Qatar"><span class="icon-check-mark"></span><span class="international-country-name">Qatar</span></li>
+				        <li data-value="208" data-text="Reunion"><span class="icon-check-mark"></span><span class="international-country-name">Reunion</span></li>
+				        <li data-value="209" data-text="Romania"><span class="icon-check-mark"></span><span class="international-country-name">Romania</span></li>
+				        <li data-value="210" data-text="Russia"><span class="icon-check-mark"></span><span class="international-country-name">Russia</span></li>
+				        <li data-value="211" data-text="Rwanda"><span class="icon-check-mark"></span><span class="international-country-name">Rwanda</span></li>
+				        <li data-value="212" data-text="Saba"><span class="icon-check-mark"></span><span class="international-country-name">Saba</span></li>
+				        <li data-value="213" data-text="Saint Barthelemy"><span class="icon-check-mark"></span><span class="international-country-name">Saint Barthelemy</span></li>
+				        <li data-value="214" data-text="Saint Helena"><span class="icon-check-mark"></span><span class="international-country-name">Saint Helena</span></li>
+				        <li data-value="215" data-text="Saint Kitts and Nevis"><span class="icon-check-mark"></span><span class="international-country-name">Saint Kitts and Nevis</span></li>
+				        <li data-value="216" data-text="Saint Lucia"><span class="icon-check-mark"></span><span class="international-country-name">Saint Lucia</span></li>
+				        <li data-value="217" data-text="Saint Martin"><span class="icon-check-mark"></span><span class="international-country-name">Saint Martin</span></li>
+				        <li data-value="218" data-text="Saint Pierre and Miquelon"><span class="icon-check-mark"></span><span class="international-country-name">Saint Pierre and Miquelon</span></li>
+				        <li data-value="219" data-text="Saint Vincent and the Grenadines"><span class="icon-check-mark"></span><span class="international-country-name">Saint Vincent and the Grenadines</span></li>
+				        <li data-value="220" data-text="Samoa"><span class="icon-check-mark"></span><span class="international-country-name">Samoa</span></li>
+				        <li data-value="221" data-text="San Marino"><span class="icon-check-mark"></span><span class="international-country-name">San Marino</span></li>
+				        <li data-value="222" data-text="Sao Tome and Principe"><span class="icon-check-mark"></span><span class="international-country-name">Sao Tome and Principe</span></li>
+				        <li data-value="223" data-text="Sark"><span class="icon-check-mark"></span><span class="international-country-name">Sark</span></li>
+				        <li data-value="224" data-text="Saudi Arabia"><span class="icon-check-mark"></span><span class="international-country-name">Saudi Arabia</span></li>
+				        <li data-value="225" data-text="Senegal"><span class="icon-check-mark"></span><span class="international-country-name">Senegal</span></li>
+				        <li data-value="226" data-text="Serbia"><span class="icon-check-mark"></span><span class="international-country-name">Serbia</span></li>
+				        <li data-value="227" data-text="Seychelles"><span class="icon-check-mark"></span><span class="international-country-name">Seychelles</span></li>
+				        <li data-value="228" data-text="Sierra Leone"><span class="icon-check-mark"></span><span class="international-country-name">Sierra Leone</span></li>
+				        <li data-value="229" data-text="Singapore"><span class="icon-check-mark"></span><span class="international-country-name">Singapore</span></li>
+				        <li data-value="230" data-text="Sint Eustatius"><span class="icon-check-mark"></span><span class="international-country-name">Sint Eustatius</span></li>
+				        <li data-value="231" data-text="Sint Maarten"><span class="icon-check-mark"></span><span class="international-country-name">Sint Maarten</span></li>
+				        <li data-value="232" data-text="Slovakia"><span class="icon-check-mark"></span><span class="international-country-name">Slovakia</span></li>
+				        <li data-value="234" data-text="Solomon Islands"><span class="icon-check-mark"></span><span class="international-country-name">Solomon Islands</span></li>
+				        <li data-value="237" data-text="South Georgia and the South Sandwich Islands"><span class="icon-check-mark"></span><span class="international-country-name">South Georgia and the South Sandwich Islands</span></li>
+				        <li data-value="238" data-text="South Sudan"><span class="icon-check-mark"></span><span class="international-country-name">South Sudan</span></li>
+				        <li data-value="239" data-text="Spain"><span class="icon-check-mark"></span><span class="international-country-name">Spain</span></li>
+				        <li data-value="240" data-text="Spratly Islands"><span class="icon-check-mark"></span><span class="international-country-name">Spratly Islands</span></li>
+				        <li data-value="241" data-text="Sri Lanka"><span class="icon-check-mark"></span><span class="international-country-name">Sri Lanka</span></li>
+				        <li data-value="243" data-text="Suriname"><span class="icon-check-mark"></span><span class="international-country-name">Suriname</span></li>
+				        <li data-value="244" data-text="Svalbard"><span class="icon-check-mark"></span><span class="international-country-name">Svalbard</span></li>
+				        <li data-value="245" data-text="Swaziland"><span class="icon-check-mark"></span><span class="international-country-name">Swaziland</span></li>
+				        <li data-value="246" data-text="Sweden"><span class="icon-check-mark"></span><span class="international-country-name">Sweden</span></li>
+				        <li data-value="247" data-text="Switzerland"><span class="icon-check-mark"></span><span class="international-country-name">Switzerland</span></li>
+				        <li data-value="249" data-text="Taiwan"><span class="icon-check-mark"></span><span class="international-country-name">Taiwan</span></li>
+				        <li data-value="251" data-text="Tanzania"><span class="icon-check-mark"></span><span class="international-country-name">Tanzania</span></li>
+				        <li data-value="252" data-text="Thailand"><span class="icon-check-mark"></span><span class="international-country-name">Thailand</span></li>
+				        <li data-value="253" data-text="Timor-Leste"><span class="icon-check-mark"></span><span class="international-country-name">Timor-Leste</span></li>
+				        <li data-value="254" data-text="Togo"><span class="icon-check-mark"></span><span class="international-country-name">Togo</span></li>
+				        <li data-value="255" data-text="Tokelau"><span class="icon-check-mark"></span><span class="international-country-name">Tokelau</span></li>
+				        <li data-value="256" data-text="Tonga"><span class="icon-check-mark"></span><span class="international-country-name">Tonga</span></li>
+				        <li data-value="257" data-text="Trinidad and Tobago"><span class="icon-check-mark"></span><span class="international-country-name">Trinidad and Tobago</span></li>
+				        <li data-value="258" data-text="Tristan da Cunha"><span class="icon-check-mark"></span><span class="international-country-name">Tristan da Cunha</span></li>
+				        <li data-value="259" data-text="Tunisia"><span class="icon-check-mark"></span><span class="international-country-name">Tunisia</span></li>
+				        <li data-value="260" data-text="Turkey"><span class="icon-check-mark"></span><span class="international-country-name">Turkey</span></li>
+				        <li data-value="261" data-text="Turkmenistan"><span class="icon-check-mark"></span><span class="international-country-name">Turkmenistan</span></li>
+				        <li data-value="262" data-text="Turks and Caicos Islands"><span class="icon-check-mark"></span><span class="international-country-name">Turks and Caicos Islands</span></li>
+				        <li data-value="263" data-text="Tuvalu"><span class="icon-check-mark"></span><span class="international-country-name">Tuvalu</span></li>
+				        <li data-value="264" data-text="Uganda"><span class="icon-check-mark"></span><span class="international-country-name">Uganda</span></li>
+				        <li data-value="266" data-text="United Arab Emirates"><span class="icon-check-mark"></span><span class="international-country-name">United Arab Emirates</span></li>
+				        <li data-value="267" data-text="United Kingdom"><span class="icon-check-mark"></span><span class="international-country-name">United Kingdom</span></li>
+				        <li data-value="268" data-text="United States"><span class="icon-check-mark"></span><span class="international-country-name">United States</span></li>
+				        <li data-value="269" data-text="Uruguay"><span class="icon-check-mark"></span><span class="international-country-name">Uruguay</span></li>
+				        <li data-value="270" data-text="Uzbekistan"><span class="icon-check-mark"></span><span class="international-country-name">Uzbekistan</span></li>
+				        <li data-value="271" data-text="Vanuatu"><span class="icon-check-mark"></span><span class="international-country-name">Vanuatu</span></li>
+				        <li data-value="272" data-text="Venezuela"><span class="icon-check-mark"></span><span class="international-country-name">Venezuela</span></li>
+				        <li data-value="273" data-text="Vietnam"><span class="icon-check-mark"></span><span class="international-country-name">Vietnam</span></li>
+				        <li data-value="274" data-text="Virgin Islands, British"><span class="icon-check-mark"></span><span class="international-country-name">Virgin Islands, British</span></li>
+				        <li data-value="275" data-text="Virgin Islands, U.S."><span class="icon-check-mark"></span><span class="international-country-name">Virgin Islands, U.S.</span></li>
+				        <li data-value="276" data-text="Wake Island"><span class="icon-check-mark"></span><span class="international-country-name">Wake Island</span></li>
+				        <li data-value="277" data-text="Wallis and Futuna"><span class="icon-check-mark"></span><span class="international-country-name">Wallis and Futuna</span></li>
+				        <li data-value="278" data-text="Western Sahara"><span class="icon-check-mark"></span><span class="international-country-name">Western Sahara</span></li>
+				        <li data-value="280" data-text="Zambia"><span class="icon-check-mark"></span><span class="international-country-name">Zambia</span></li>
+				        <li data-value="1" data-text="Afghanistan"><span class="icon-check-mark"></span><span class="international-country-name">Afghanistan</span></li>
+				        <li data-value="3" data-text="Albania"><span class="icon-check-mark"></span><span class="international-country-name">Albania</span></li>
+				        <li data-value="8" data-text="Angola"><span class="icon-check-mark"></span><span class="international-country-name">Angola</span></li>
+				        <li data-value="25" data-text="Belarus"><span class="icon-check-mark"></span><span class="international-country-name">Belarus</span></li>
+				        <li data-value="31" data-text="Bolivia"><span class="icon-check-mark"></span><span class="international-country-name">Bolivia</span></li>
+				        <li data-value="33" data-text="Bosnia and Herzegovina"><span class="icon-check-mark"></span><span class="international-country-name">Bosnia and Herzegovina</span></li>
+				        <li data-value="38" data-text="Brunei"><span class="icon-check-mark"></span><span class="international-country-name">Brunei</span></li>
+				        <li data-value="41" data-text="Burma (Myanmar)"><span class="icon-check-mark"></span><span class="international-country-name">Burma (Myanmar)</span></li>
+				        <li data-value="55" data-text="Colombia"><span class="icon-check-mark"></span><span class="international-country-name">Colombia</span></li>
+				        <li data-value="57" data-text="Congo, Democratic Republic of the"><span class="icon-check-mark"></span><span class="international-country-name">Congo, Democratic Republic of the</span></li>
+				        <li data-value="58" data-text="Congo, Republic of the"><span class="icon-check-mark"></span><span class="international-country-name">Congo, Republic of the</span></li>
+				        <li data-value="62" data-text="Cote d'Ivoire"><span class="icon-check-mark"></span><span class="international-country-name">Cote d'Ivoire</span></li>
+				        <li data-value="63" data-text="Croatia"><span class="icon-check-mark"></span><span class="international-country-name">Croatia</span></li>
+				        <li data-value="64" data-text="Cuba"><span class="icon-check-mark"></span><span class="international-country-name">Cuba</span></li>
+				        <li data-value="122" data-text="Iran"><span class="icon-check-mark"></span><span class="international-country-name">Iran</span></li>
+				        <li data-value="123" data-text="Iraq"><span class="icon-check-mark"></span><span class="international-country-name">Iraq</span></li>
+				        <li data-value="139" data-text="Korea, North"><span class="icon-check-mark"></span><span class="international-country-name">Korea, North</span></li>
+				        <li data-value="143" data-text="Kyrgyzstan"><span class="icon-check-mark"></span><span class="international-country-name">Kyrgyzstan</span></li>
+				        <li data-value="146" data-text="Latvia"><span class="icon-check-mark"></span><span class="international-country-name">Latvia</span></li>
+				        <li data-value="147" data-text="Lebanon"><span class="icon-check-mark"></span><span class="international-country-name">Lebanon</span></li>
+				        <li data-value="149" data-text="Liberia"><span class="icon-check-mark"></span><span class="international-country-name">Liberia</span></li>
+				        <li data-value="150" data-text="Libya"><span class="icon-check-mark"></span><span class="international-country-name">Libya</span></li>
+				        <li data-value="155" data-text="Macedonia"><span class="icon-check-mark"></span><span class="international-country-name">Macedonia</span></li>
+				        <li data-value="171" data-text="Moldova"><span class="icon-check-mark"></span><span class="international-country-name">Moldova</span></li>
+				        <li data-value="178" data-text="Namibia"><span class="icon-check-mark"></span><span class="international-country-name">Namibia</span></li>
+				        <li data-value="187" data-text="Nigeria"><span class="icon-check-mark"></span><span class="international-country-name">Nigeria</span></li>
+				        <li data-value="233" data-text="Slovenia"><span class="icon-check-mark"></span><span class="international-country-name">Slovenia</span></li>
+				        <li data-value="235" data-text="Somalia"><span class="icon-check-mark"></span><span class="international-country-name">Somalia</span></li>
+				        <li data-value="236" data-text="South Africa"><span class="icon-check-mark"></span><span class="international-country-name">South Africa</span></li>
+				        <li data-value="242" data-text="Sudan"><span class="icon-check-mark"></span><span class="international-country-name">Sudan</span></li>
+				        <li data-value="248" data-text="Syria"><span class="icon-check-mark"></span><span class="international-country-name">Syria</span></li>
+				        <li data-value="250" data-text="Tajikistan"><span class="icon-check-mark"></span><span class="international-country-name">Tajikistan</span></li>
+				        <li data-value="265" data-text="Ukraine"><span class="icon-check-mark"></span><span class="international-country-name">Ukraine</span></li>
+				        <li data-value="279" data-text="Yemen"><span class="icon-check-mark"></span><span class="international-country-name">Yemen</span></li>
+				        <li data-value="281" data-text="Zimbabwe"><span class="icon-check-mark"></span><span class="international-country-name">Zimbabwe</span></li>
+				      </ul>
+				      </div>
+				    </div>
+				</div>
+				    <a href="#" class="closea">Close</a>
+				    <a href="#" class="add_ctn">Add country</a>
+				</div>
+			</section>
+			<section alt="4" id="equipment" class="section_class">
+				<div class="company_Left col-lg-6 col-sm-12">
+					<div class="authorization_icon"></div>
+					<h2></h2>
+					<p>Signature authorizes Taycor Financial or its assignees to verify credit and financial information from all appropriate sources. Such verification may include obtaining business as well as individual credit and financial background of officers and principals, as well as bank, trade, and comparable borrowing references. Submission of this form is consent that information transmitted via the Internet carries with it inherent risk when done via an unsecured network connection. Signature below must be done by only an authorized member and must be 18 years of age or older.</p>
+				</div>
+				<div class="company_Right col-lg-6 col-sm-12">
+					<form>
+							<div class="form_group form_groupdouble">
+								<div>
+									<label> Seller Company Name:</label>
+									<input type="text" name="">
+									<p class="error">Company Name cannot be blank.</p>
+								</div>
+								<div>
+									<label>Equipment Description: </label>
+									<input type="text" name="">
+									<p class="error">Equipment Description cannot be blank.</p>
+								</div>
+							</div>
+							<div class="form_group form_groupdouble">
+								<div>
+									<label>Seller Phone #: </label>
+									<input type="text" name="">
+									<p class="error">Phone cannot be blank.</p>
+								</div>
+								<div>
+									<label> Equipment Cost:</label>
+									<input type="text" name="">
+									<p class="error">Equipment Cost cannot be blank.</p>
+								</div>
+							</div>
+							<div class="form_group">
+								<label>Time Frame for Purchase: </label>
+								<input type="text" name="">
+								<p class="error">Time Frame for Purchase cannot be blank.</p>
+							</div>
+							<div class="form_group form_groupdouble" >
+								<div>
+									<label> Monthly Budget:</label>
+									<input type="text" name="">
+									<p class="error">Monthly Budget cannot be blank.</p>
+								</div>
+								<div>
+									<label>Condition: </label>
+									<select name="selector" id="select_step2">
+										<option>New</option>
+										<option>Used</option>
+									</select>
+								</div>
+							</div>
+						<button class="next step4">Next</button>
+					</form>
+				</div>
+			</section>
+			<section alt="5" id="authorization" class="section_class">
+				<div class="company_Left col-lg-6 col-sm-12">
+					<div class="authorization_icon"></div>
+					<h2></h2>
+					<p>Signature authorizes Taycor Financial or its assignees to verify credit and financial information from all appropriate sources. Such verification may include obtaining business as well as individual credit and financial background of officers and principals, as well as bank, trade, and comparable borrowing references. Submission of this form is consent that information transmitted via the Internet carries with it inherent risk when done via an unsecured network connection. Signature below must be done by only an authorized member and must be 18 years of age or older.</p>
+				</div>
+				<div class="company_Right col-lg-6 col-sm-12">
+					<form>
+						<div class="form_group">
+							<label> Authorized Signer:</label>
+							<input type="text" name="">
+						</div>
+						<div class="form_group">
+							<label>Federal Tax ID: </label>
+							<input type="text" name="">
+						</div>
+						<div class="form_group">
+							<label>Title:</label>
+							<input type="text" name="">
+						</div>
+						<button class="next step5">Next</button>
+					</form>
+				</div>
+			</section>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="styles/js/jquery.min.js"></script>
+	<script type="text/javascript" src="styles/js/bootstrap.min.js"></script>
+	<script>
+	// click out to div
+		$(document).mouseup(function (e)
+		{
+		    var container = $(".addCountries_Part");
+		    if (!container.is(e.target)
+		        && container.has(e.target).length === 0)
+		    {
+		        container.hide();
+		    }
+		});
+		// effect
+		$(document).ready(function() {
+			var x = window.innerHeight;
+			var y = $('.simple_Menu').css({'height': x });
+			var z = $('.company_Right').css({'height': x });
+			var a = window.innerWidth;
+			if (a<1200) {
+				$('.company_Right').css({'height': 'auto' });
+				$('#Principal').css({'height': x});
+				$('#equipment').css({'height': x});
+				$('#authorization').css({'height': x});
+				$('#company').css({'height': x});
+		    	$('.addCountries_Part').css({'height': x});
+			};
+			if (a<=768) {
+				$('.simple_Menu').css({'height': '50px' });
+			};
+			// add countries
+		    $("#ownership form .addCountries a").click(function() {
+		    	$('.addCountries_Part').css("display","block");
+		    	$('.addCountries_Part').addClass('animated slideInRight');
+		    	$('.addCountries_Part').css({'height': x});
+		    	$('.addCountries_Part .countries-list_Part').css({'height': x});
+		    });
+		    $(".addCountries_Part_ch .h6 span").click(function() {
+		    	$('.addCountries_Part').hide();
+		    });
+
+			slideNext = 'slideInUp';
+			slidePrev = 'slideInDown';
+		    /*jump slider*/
+			function jumpStep (step) {
+    			step.hide();
+				step.removeClass("animated " + slideNext + " " + slidePrev);
+    			step.next().show();
+    			step.next().addClass("animated " + slideNext);
+
+    			index = $(".simple_Menu ul li a.active").parent().index();
+    			$(".simple_Menu ul li a").removeClass('active');
+    			$(".simple_Menu ul li:nth-child(" + (index+1) + ") a").addClass('completed');
+    			$(".simple_Menu ul li:nth-child(" + (index+2) + ") a").addClass('visited active');
+			}
+
+			/*check error*/
+			function checkInput (form) {
+		    	var error = 0;
+				if(form.children('input').val() == "") {
+					form.children('p').removeClass("error");
+					form.children('p').addClass("error_show");
+					error ++;
+			    } else {
+			    	form.children('p').addClass("error");
+					form.children('p').removeClass("error_show");
+			    }
+			    return error;
+			}
+
+		    $("body").on('click', '#company form button.step1', function(e) {
+		    	e.preventDefault();
+		    	step = $('#company');
+
+		    	var error = 0;
+		    	$('#company form .form_group').each(function() {
+		    		error += checkInput($(this));
+		    	});
+		    	$('#company form .form_group div').each(function() {
+		    		error += checkInput($(this));
+		    	});
+
+	    		if (error == 0) {
+	    			jumpStep(step);
+	    		}
+
+		    });
+
+		    $("body").on('click', '#Principal form button.step2', function(e) {
+		    	e.preventDefault();
+		    	step = $('#Principal');
+
+		    	var error = 0;
+		    	$('#Principal form .form_group').each(function() {
+		    		error += checkInput($(this));
+		    	});
+		    	$('#Principal form .form_group div').each(function() {
+		    		error += checkInput($(this));
+		    	});
+
+	    		if (error == 0) {
+	    			jumpStep(step);
+	    		}
+
+		    });
+
+		    $("body").on('click', '#ownership form button.step3', function(e) {
+		    	e.preventDefault();
+		    	step = $('#ownership');
+
+    			var error = 0;
+		    	$('#ownership form .form_group').each(function() {
+		    		error += checkInput($(this));
+		    	});
+		    	$('#ownership form .form_group div').each(function() {
+		    		error += checkInput($(this));
+		    	});
+
+	    		if (error == 0) {
+	    			jumpStep(step);
+	    		}
+		    });
+		    $("body").on('click', '#equipment form button.step4', function(e) {
+		    	e.preventDefault();
+		    	step = $('#equipment');
+
+    			var error = 0;
+		    	$('#equipment form .form_group').each(function() {
+		    		error += checkInput($(this));
+		    	});
+		    	$('#equipment form .form_group div').each(function() {
+		    		error += checkInput($(this));
+		    	});
+
+	    		if (error == 0) {
+	    			jumpStep(step);
+	    		}
+		    });
+			/*click step on sidebar*/
+			$(".simple_Menu ul li a").click(function(){
+				if ($(this).hasClass('visited')) {
+					var alt_curr = $(".simple_Menu ul li a.active").attr('alt');
+					var alt_count = $(this).attr('alt');
+					section = $('.section_class');
+					if(alt_count == alt_curr){
+						return;
+					} else {
+						section_purpose = $(".section_class[alt="+alt_count+"]");
+
+						$(".simple_Menu ul li a").removeClass("active");
+						$(this).addClass("active");
+
+						section.hide();
+						section.removeClass("animated " + slideNext + " " + slidePrev);
+
+						section_purpose.show();
+
+						if(alt_count < alt_curr){
+							section_purpose.addClass("animated " + slidePrev);
+						} else {
+							section_purpose.addClass("animated " + slideNext);
+						}
+
+						alt = alt_count;
+					}
+				};
+			});
+			// ***************** tik add countries *******************************
+			$(".countries-list li").click(function(){
+				var id = $(this).attr('data-value');
+				var text = $(this).attr('data-text');
+
+				if ($(this).hasClass("active")) {
+					$(this).removeClass("active");
+					$(".ctn_addctr span.remove-country[alt="+id+"]").parent().remove();
+
+				} else {
+
+					if ( $('.countries-list li.active').length >= 3 ) {
+						$(".addCountries a").css({"display":"none"});
+						return;
+					} else {
+						
+						
+						$(this).addClass("active");
+						
+						$(".addCountries_Part  a.add_ctn").css({"display":"block"});
+						$("#content_addcountries").css({"display":"block"});
+
+						$("#content_addcountries").append('<div class="ctn_addctr"><div>'+text+'</div><span class="remove-country glyphicon glyphicon-remove" alt="'+id+'"></span></div>');
+
+						$(".addCountries a").css({"display":"block"});
+					}	
+
+				}
+			});
+
+			$(".add_ctn").click(function(){
+    			$('.addCountries_Part').hide();
+			});
+
+			/*remove country*/
+			$('body').on('click', '.ctn_addctr span.remove-country', function(){
+				alt_remove = $(this).attr('alt');
+				$(this).parent().remove();
+				$(".countries-list li[data-value="+alt_remove+"]").removeClass('active');
+
+				$(".addCountries a").css({"display":"block"});
+			});
+		});
+		</script>
+</body>
+</html>

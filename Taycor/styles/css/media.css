@@ -1,0 +1,1392 @@
+/*design by Softdevelop*/
+/*author: minhhungle.qt@gmail.com*/
+/*media.css version 1.0*/
+@media (min-width: 1200px){
+	.taylorFinanceContent{
+		padding: 100px 0;
+	}
+}
+@media (max-width: 1200px){
+	.contact-us {
+		display: none;
+	}
+	menu .main-menu-bar {
+	    width: 100%;
+	}
+	.taylorFinanceContent{
+		padding: 50px 0;
+	}
+	.subpage .bannerTopContainer{
+		padding: 65px 0;
+	}
+	.subpage .banner_content h3{
+		font-size: 43px;
+		line-height: 55px;
+		margin-bottom: 15px;
+	}
+	.subpage .banner_content > p{
+		font-size: 16px;
+		margin: 0 0 15px 0;
+	}
+	.subpage .banner_content .reviews{
+		font-size:16px;
+	}
+	.subpage .banner_content .buy{
+		padding: 11px 30px;
+	}
+	.subpage .bannerBotContainer{
+		padding: 125px 0;
+	}
+	.subpage .payment_action{
+		padding-top: 320px;
+	}
+	.subpage .wrapperContent{
+		margin-left: 45px;
+	}
+	.subpage .accolade{
+		padding: 65px 0;
+	}
+	.subpage .accoladePart img{
+		margin-bottom: 20px;
+	}
+	.subpage .accoladePart a{
+		font-size: 31px;
+		margin-bottom: 20px;
+	}
+	.subpage .accoladePart p{
+		font-size: 17px;
+	}
+	.subpage .contentPart1_text p, .subpage .contentPart2_text p{
+		font-size: 17px;
+	}
+	.subpage .bannerBot_content > h3{
+		font-size: 35px;
+	}
+	.menu-sub.show {
+	    -webkit-transform: translateY(138px);
+	    -moz-transform: translateY(138px);
+	    -ms-transform: translateY(138px);
+	    -o-transform: translateY(138px);
+	    transform: translateY(138px);
+	}
+	/*simple*/
+	.simple_form_page .company_Left{
+		background: #ecf0f1;
+		height: auto;
+	}
+	#Principal,#equipment,#authorization,#company{
+		overflow: scroll;
+		background: #ecf0f1;
+	}
+	.simple_form_page #Principal .company_Right,
+	.simple_form_page #equipment .company_Right,
+	.simple_form_page #authorization .company_Right,
+	.simple_form_page #company .company_Right{
+		padding-top: 30px;
+		overflow: auto;
+	}
+	.addCountries_Part {
+		width: 50%;
+	}
+	/*calculator_page*/
+	.calculator_page .step_Left{
+		background: #ECF0F1;
+		height: auto;
+	}
+	#step1,#step2,#step3,#step4{
+		overflow: scroll;
+		background: #f6f8f8;
+	}
+	.calculator_page #step1 .step_Right,
+	.calculator_page #step2 .step_Right,
+	.calculator_page #step3 .step_Right,
+	.calculator_page #step4 .step_Right{
+		padding-top: 30px;
+		overflow: auto;
+	}
+	.calculator_page #step2 .step_Right tr td .check{
+		left: 45%;
+	}
+	.calculator_page {
+		background: #ECF0F1;
+	}
+	.simple_form_page {
+		background: #ecf0f1;
+	}
+}
+@media (min-width: 1024px){
+	.bannerslider .carousel-inner>.item{
+		min-height: 500px;
+	}
+}
+@media (max-width: 1024px){
+	.bannerslider .carousel-caption{
+		top: 12%;
+	}
+	.plan-part{
+		width: 50%;
+	}
+	.taylorFinanceContent{
+		padding: 50px 0;
+	}
+	.subpage .bannerBotContainer{
+		padding: 115px 0;
+	}
+	.subpage .rslides h3{
+		font-size: 35px;
+		line-height: 53px;
+	}
+	.subpage .payment_action{
+		padding-top: 250px ;
+	}
+	.subpage .bg_content{
+		padding: 50px 0;
+	}
+	.subpage .wrapperContent h3{
+		font-size: 35px;
+	}
+	.subpage .wrapperContent p{
+
+	}
+	.subpage .wrapper_img_text, .subpage .contentLeft_img, 
+	.subpage .contentLeft_text, .subpage .contentRight {
+	  height: 690px;
+	}
+	.subpage .contentRight .wrapper_img_text, .subpage .ctRightTop_img, .subpage .ctRightTop_text,
+	.subpage .ctRightBot, .subpage .contentPart1_text,.subpage .contentPart2_text, .subpage .ctRightBot,
+	.subpage .contentPart1_img, .subpage .contentPart2_img{
+	  height: 345px;  
+	}
+	.subpage .contentLeft_text{
+		padding-top: 215px;
+	}
+	.subpage .contentLeft_text h3,.subpage .ctRightTop_text h3{
+		font-size: 35px
+	}
+	.subpage .contentLeft_text p,.subpage .ctRightTop_text p{
+		font-size: 19px;
+	}
+	.subpage .contentPart1_text h3, .subpage .contentPart2_text h3{
+		margin: 0;
+	}
+	.subpage .contentPart1_text p, .subpage .contentPart2_text p{
+		font-size: 16px;
+	}
+	.simple_form_page .simple_Menu ul li a span {
+		font-size: 18px;
+	}
+}
+@media (min-width: 992px){
+	header ul.nav li a{
+		padding: 10px 20px;
+	}
+}
+@media (max-width: 992px){
+	menu .navbar-default .navbar-nav>li>a {
+	    font-size: 14px;
+	}
+	menu .navbar-default .navbar-nav>li>a{
+		padding: 15px 5px;
+	}
+	menu .main-menu-bar li {
+		width: auto;
+	}
+	.bannerslider .carousel-caption>h3 {
+    	font-size: 40px;
+	}
+	div#slider, div#slider2 {
+	    margin: 0px 0px 0 35px;
+	    width: 80%;
+	}
+	.contactDetailcnt {
+	    padding: 60px 0;
+	}
+	.calculator_part>a>h3{
+		font-size: 18px;
+	}
+	.subpage .bannerTopContainer{
+		padding: 51px 0;
+	}
+	.subpage .banner_content h3{
+		font-size: 35px;
+		line-height: 40px;
+		margin-bottom:5px
+	}
+	.subpage .banner_content > p{
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	.subpage .banner_content .buy{
+		padding: 9px 23px;
+	}
+	.subpage .banner_content .watch{
+		font-size: 14px;
+		margin-left: 10px;
+	}
+	.subpage .banner_content .reviews{
+		font-size: 14px;
+	}
+	.subpage .banner_content > i{
+		font-size: 17px;
+	}
+	.subpage .bannerBotContainer{
+		padding: 105px 0;
+	}
+	.subpage .bannerBot_content > p{
+		font-size: 16px;
+		margin: 17px 0;
+	}
+	.subpage .bannerBot_content > h3{
+		font-size: 28px;
+	}
+	.subpage .bannerBot_content > a,
+	.subpage .bannerBot_content > i{
+		font-size: 16px;
+	}
+	.subpage .content_SlideshowContainer{
+		padding-top: 53px;
+	}
+	.subpage .rslides h3{
+		font-size: 30px;
+		line-height: 45px;
+	}
+	.subpage .rslides h4{
+		padding: 18px 0;
+	}
+	.subpage .navbar > .container .navbar-brand{
+		margin-right: 5px;
+		font-weight: 16px;
+	}
+	.subpage .navbar-default .navbar-nav>li>a{
+		padding: 0 5px;
+		font-weight: 14px;
+	}
+	.subpage .payment_action{
+		padding-top: 220px;
+	}
+	.subpage .wrapperPayment a > img{
+		margin-bottom: 20px;
+	}
+	.subpage .wrapperPayment h3{
+		font-size: 32px;
+		margin-bottom: 20px
+	}
+	.subpage .wrapperPayment p{
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	.subpage .wrapperPayment .Find_out,.subpage .wrapperPayment i{
+		font-size: 18px;
+	}
+	.subpage .ApplyOnline_action{
+		padding-top: 65px;
+	}
+	.subpage .wrapperApplyOnline h3{
+		font-size: 32px;
+		margin-bottom: 17px;
+	}
+	.subpage .wrapperApplyOnline p{
+		font-size: 16px;
+		margin-bottom: 17px;
+	}
+	.subpage .wrapperApplyOnline a,.subpage .wrapperApplyOnline i{
+		font-size: 18px;
+	}
+	.subpage .bg_content{
+		padding: 50px 0;
+	}
+	.subpage .wrapperContent h3{
+		font-size: 32px;
+	}
+	.subpage .wrapperContent p{
+		font-size: 16px;
+	}
+	.subpage .wrapperContent{
+		margin-left: 40px;
+	}
+	.subpage .bg_content{
+		margin: 15px 0;
+	}
+	.subpage .accolade{
+		padding: 50px 0;
+	}
+	.subpage .accoladePart img{
+		margin-bottom: 16px;
+		max-width: 45%;
+	}
+	.subpage .accoladePart a{
+		font-size: 23px;
+		margin-bottom: 16px;
+	}
+	.subpage .accoladePart p{
+		font-size: 15px;
+	}
+	.subpage .wrapper_img_text, .subpage .contentLeft_img, 
+	.subpage .contentLeft_text, .subpage .contentRight {
+	  height: 600px;
+	}
+	.subpage .contentRight .wrapper_img_text, .subpage .ctRightTop_img, .subpage .ctRightTop_text,
+	.subpage .ctRightBot, .subpage .contentPart1_text,.subpage .contentPart2_text, .subpage .ctRightBot,
+	.subpage .contentPart1_img, .subpage .contentPart2_img{
+	  height: 300px;  
+	}
+	.subpage .contentLeft_text{
+		padding-top: 150px;
+	}
+	.subpage .contentLeft_text h3, .subpage .ctRightTop_text h3{
+		font-size: 33px;
+	}
+	.subpage .contentLeft_text p, .subpage .ctRightTop_text p{
+		font-size: 18px;
+	}
+	.subpage .ctRightTop_text{
+		padding-top: 65px;
+	}
+	.subpage .contentPart2_text{
+		padding-top: 10px;
+	}
+	.subpage .contentPart1_text h3, .subpage .contentPart2_text h3{
+		font-size: 28px;
+	}
+	.subpage .contentPart1_text p, .subpage .contentPart2_text p{
+		font-size: 15px;
+	}
+	.subpage .contentPart1_text{
+		padding-top: 50px;
+	}
+	/*.subpage .landing-content{
+		min-height: 538px;
+	}*/
+	/*programs*/
+	.programs .content h3 {
+		width: 70%;
+	}
+	.programs .content p {
+		width: 80%;
+	}
+	.programs .content .content_part .content_part_ctn {
+		margin-bottom: 30px;
+	}
+	.box-area-result {
+		width: 100% !important;
+	}
+	.simple_form_page {
+		background: #f6f8f8;
+	}
+}
+@media (min-width: 769px) and (max-width: 992px){
+	.subpage .Contact{
+		display: none;
+	}
+}
+@media (min-width: 769px){
+	.subpage .dropdown{
+		display: none;
+	}
+}
+@media (max-width: 768px){
+	menu .navbar-toggle {
+	    float: left;
+	    margin-left: 15px;
+	    margin-right: 0;
+	}
+	menu .navbar-nav{
+	}
+	menu .navbar-default .navbar-nav>li{
+	    padding: 0 7px;
+	}
+	menu .main-menu-bar>li:hover {
+	    box-shadow: inset 0 0px 0 0 #F0F2F7;
+	}
+	menu .navbar-default .navbar-nav>li>a{
+		padding: 15px 0;
+	}
+	menu .navbar-default .navbar-nav>li.active:hover,
+	menu .navbar-default .navbar-nav>li.active:focus,
+	menu .navbar-default .navbar-nav>li.active,
+	menu .navbar-default .navbar-nav>li:hover,
+	menu .navbar-default .navbar-nav>li:focus
+	{
+		color: #fff;
+	}
+	menu .navbar-default .navbar-nav>li.active>a:hover,
+	menu .navbar-default .navbar-nav>li.active>a:focus,
+	menu .navbar-default .navbar-nav>li.active>a,
+	menu .navbar-default .navbar-nav>li:hover>a,
+	menu .navbar-default .navbar-nav>li:focus>a{
+		color: #fff;
+	}
+	menu .navbar-default .navbar-toggle{
+		border-color: #ffffff;
+	}
+	menu .navbar-default .navbar-toggle .icon-bar{
+	    background-color: #dedede;
+	}
+	menu .navbar-default .navbar-toggle:focus,
+	menu .navbar-default .navbar-toggle:hover {
+	    background-color: #08AA5B;
+	}
+	.infoContact  {
+		padding-bottom: 15px;
+	}
+	.addressContact{
+		width: 100% !important;
+	}
+	.bannerslider .carousel-control,.icon_control {
+	    width: 40px;
+	    height: 40px;
+	}
+	.bannerslider .carousel-caption {
+	    top: 8%;
+	}
+	.bannerslider .carousel-control{
+		margin-top: -20px;
+	}
+	.bannerslider .left.carousel-control{
+		left: 5px;
+	}
+	.bannerslider .right.carousel-control{
+		right: 5px;
+	}
+	.bannerslider .carousel-indicators .active,
+	.bannerslider .carousel-indicators li{
+		width: 30px;
+	}
+	.taylorFinanceContent{
+		padding: 20px 0;
+	}
+	.calculator_part>a>img{
+		width: 40%;
+		max-width: 150px;
+	}
+	.calculator_part>a>h3{
+		font-size: 16px;
+	}
+	.calculator_page section {
+		overflow: initial !important;
+	}
+	.clientsContainer .clients_title h3{
+		font-size: 30px;
+	}
+	.user_image img{
+		max-width: 110px;
+	}
+	.clientsContainer .clients_title span{
+		margin: 20px 0;
+	}
+	.clientsContainer .right.carousel-control,
+	.clientsContainer .left.carousel-control{
+		top: 89px;
+	}
+
+	.s_slider_container, .subpage-slider .s_slider {
+		width: 100%;
+	}
+	.left-arrow a, .right-arrow a{
+		display: none;
+	}
+	.subpage-landing-inner, .subpage-slider .s_slider img, .subpage-slider .s_slider:hover  {
+		opacity: 1;
+	}
+	a.sub_collapse {
+		display: block;
+	}
+	a.sub_collapse_none{
+		display: none;
+	}
+	.subpage-slider .s_slider .sub_caption {
+	    display: block !important;
+	    left: 0;
+	    transform: translateX(25px);
+	    -webkit-transform: translateX(25px);
+	    -ms-transform: translateX(25px);
+	}
+	.subpage .bannerTopContainer{
+		padding: 35px 0;
+	}
+	.subpage .banner_content h3 {
+		font-size: 26px;
+		line-height: 35px;
+		margin-bottom:3px;
+		width: 100%
+	}
+	.subpage .banner_content > p {
+		font-size: 15px;
+		line-height: 20px;
+		margin-bottom: 8px;
+		width: 100%;
+	}
+	.subpage .banner_content .buy {
+		padding: 8px 20px;
+		font-size: 15px;
+	}
+	.subpage .banner_content .watch {
+		font-size: 15px;
+		margin-left: 7px;
+	}
+	.subpage .banner_content .reviews {
+		font-size: 15px;
+	}
+	.subpage .banner_content > i{
+		font-size: 15px;
+	}
+	.subpage .bannerBotContainer{
+		padding: 80px 0;
+	}
+	.subpage .bannerBot_content > h3{
+		font-size: 29px;
+	}
+	.subpage .bannerBot_content > p {
+		font-size: 15px;
+		line-height: 22px;
+		margin: 10px 0;
+	}
+	.subpage .bannerBot_content > a,
+	.subpage .bannerBot_content > i{
+		font-size: 16px;
+	}
+	.subpage .content_SlideshowContainer{
+		padding-top: 50px;
+		min-height: 250px;
+	}
+	.subpage .rslides h3{
+		font-size: 25px;
+		line-height: 38px;
+	}
+	.subpage .rslides h4{
+		padding: 16px 0;
+		font-size: 16px;
+	}
+	.subpage .navbar-nav{
+		display: none;
+	}
+	.subpage .container > .navbar-header{
+		display: none;
+	}
+	.subpage .container{
+		width: 100%;
+	}
+	.subpage .payment_action{
+		padding-top: 160px;
+	}
+	.subpage .wrapperPayment a > img{
+		margin-bottom: 15px;
+		max-width: 9%;
+	}
+	.subpage .wrapperPayment h3{
+		font-size: 29px;
+		margin-bottom: 15px
+	}
+	.subpage .wrapperPayment p{
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+	.subpage .wrapperPayment .Find_out,.subpage .wrapperPayment i{
+		font-size: 17px;
+	}
+	.subpage .ApplyOnline_action{
+		padding-top: 55px;
+	}
+	.subpage .wrapperApplyOnline{
+		max-width: 450px;
+	}
+	.subpage .wrapperApplyOnline h3{
+		font-size: 29px;
+		margin-bottom: 15px;
+	}
+	.subpage .wrapperApplyOnline p{
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+	.subpage .wrapperApplyOnline a,.subpage .wrapperApplyOnline i{
+		font-size: 17px;
+	}
+	.subpage .bg_content{
+		padding: 40px 0;
+		margin: 13px 0;
+	}
+	.subpage .wrapperContent h3{
+		font-size: 26px;
+		margin-bottom: 12px;
+	}
+	.subpage .wrapperContent p{
+		font-size: 14px;
+	}
+	.subpage .wrapperContent{
+		margin-left: 30px;
+	}
+	.subpage .accolade{
+		padding: 35px 0;
+	}
+	.subpage .accoladePart img{
+		margin-bottom: 14px;
+		max-width: 45%;
+	}
+	.subpage .accoladePart a{
+		font-size: 20px;
+		margin-bottom: 14px;
+	}
+	.subpage .accoladePart p{
+		font-size: 12px;
+	}
+	.subpage .contentLeft_img, .subpage .contentLeft_text,
+	.subpage .contentRight, .subpage .wrapper_img_text,
+	.subpage .ctRightTop_img, .subpage .ctRightTop_text, .subpage .ctRightBot ,
+	.subpage .contentPart1_img, .subpage .contentPart1_text,
+	.subpage .contentPart2_img, .subpage .contentPart2_text{
+		width: 100%;
+	}
+	.subpage .contentRight .ctRightBot .wrapper_img_text {
+	    width: 100%;
+	}
+	.subpage .ctRightBot {
+		height: 600px;
+	}
+	.subpage .contentRight {
+	    height: auto;
+	}
+	.subpage .contentLeft_text h3{
+		margin: 0 auto;
+		max-width: 70%;
+	}
+	.subpage .contentLeft_text h3,
+	.subpage .ctRightTop_text h3,
+	.subpage .contentPart1_text h3, 
+	.subpage .contentPart2_text h3{		
+		font-size: 29px;
+	}
+	.subpage .contentLeft_text p,
+	.subpage .ctRightTop_text p,
+	.subpage .contentPart1_text p, 
+	.subpage .contentPart2_text p{
+		max-width: 67%;
+		font-size: 17px;
+	}
+	.subpage .contentPart1_text h3, 
+	.subpage .contentPart2_text h3{
+		margin-bottom: 15px;
+	}
+	.subpage .contentPart1_text{
+		padding-top: 70px;
+	}
+	.subpage .contentPart2_text{
+		padding-top: 70px;
+	}
+	.subpage .contentLeft_text p{
+		margin-top: 15px;
+	}
+	.subpage .contentLeft_text{
+		padding-top: 120px;
+	}
+	.subpage .ctRightTop_text{
+		padding-top: 90px;
+	}
+	.addressContact {
+		position: static!important;
+	}
+	.addressContact iframe{
+		height: 250px;
+	}
+	footer .footerTop{
+		padding-top: 0;
+	}
+	footer .footerTopLink>ul{
+	    text-align: center;
+	    margin-bottom: 15px;
+	}
+	footer .footerTopLink>ul>li{
+		display: inline;
+		padding: 0 15px;
+	}
+	footer .footerBot{
+		padding: 20px 15px 10px;
+	}
+	footer .footerLogoSocial {
+	    float: none;
+	    text-align: center;
+	}
+	footer .footerLogoSocial .logofooter {
+	    margin-bottom: 15px;
+	}
+	.footerBot>div{
+		width: 100%;
+		text-align: center;
+	}
+	.contactusContainer{
+		padding-bottom: 0;
+	}
+	.contactDetail h3{
+		font-size: 30px;
+		line-height: 40px;
+	}
+	/*landing*/
+	.landing-title {
+		background: #f5f5f5;
+		position: relative;
+	}
+	/*simple*/
+	.simple_form_page .simple_Menu ul li a span{
+		display: none;
+	}
+	.simple_form_page .simple_Menu ul li a p{
+		display: none;
+	}
+	.simple_form_page .simple_Menu{
+		padding: 0;
+	}
+	.simple_form_page .simple_Menu ul li{
+		width: 25%;
+		float: left;
+		height: 50px;
+	}
+	.simple_form_page .simple_Menu ul li a{
+		height: 50px;
+
+	}
+	.simple_form_page .simple_Menu ul li a.company{
+		background: url(../images/simple/icon_step1.png) transparent no-repeat center;
+		background-size: 20%;
+	}
+	.simple_form_page .simple_Menu ul li a.principal{
+		background: url(../images/simple/icon_step2.png) transparent no-repeat center;
+		background-size: 20%;
+	}
+	.simple_form_page .simple_Menu ul li a.equipment{
+		background: url(../images/simple/icon_step3.png) transparent no-repeat center;
+		background-size: 20%;
+	}
+	.simple_form_page .simple_Menu ul li a.authorization{
+		background: url(../images/simple/icon_step4.png) transparent no-repeat center;
+		background-size: 20%;
+	}
+	.simple_form_page .simple_Menu ul li.active a{
+		height: 50px;
+	}
+	.simple_form_page .simple_Menu ul li a.active{
+		border: 1px solid #dadfe1;
+		color: #333;
+	}
+	.simple_form_page .simple_Menu{
+		background: #fcfcfd;
+		height: 50px !important;
+	}
+	.addCountries_Part {
+		width: 100%;
+		height: 100%;
+	}
+	.simple_form_page .simple_form_page_Left,
+	.simple_form_page .simple_form_page_Right {
+		width: 100%;
+	}
+
+	.simple_form_page .simple_Menu .simple_Menu_title{
+		display: none;
+	}
+	/*calculator_page*/
+	.calculator_page .calcu_Menu ul li a span{
+		display: none;
+	}
+	.calculator_page .calcu_Menu ul li a p{
+		display: none;
+	}
+	.calculator_page .calcu_Menu{
+		padding: 0;
+	}
+	.calculator_page .calcu_Menu ul li{
+		width: 25%;
+		float: left;
+		height: 50px;
+	}
+	.calculator_page .calcu_Menu ul li a{
+		height: 50px;
+
+	}
+	.calculator_page .calcu_Menu ul li a.step1{
+		background: url(../images/simple/icon_step1.png) transparent no-repeat center;
+		background-size: 20%;
+	}
+	.calculator_page .calcu_Menu ul li a.step2{
+		background: url(../images/simple/icon_step2.png) transparent no-repeat center;
+		background-size: 20%;
+	}
+	.calculator_page .calcu_Menu ul li a.step3{
+		background: url(../images/simple/icon_step3.png) transparent no-repeat center;
+		background-size: 20%;
+	}
+	.calculator_page .calcu_Menu ul li a.step4{
+		background: url(../images/simple/icon_step4.png) transparent no-repeat center;
+		background-size: 20%;
+	}
+	.calculator_page .calcu_Menu ul li.active a{
+		height: 50px;
+	}
+	.calculator_page .calcu_Menu ul li a.completed {
+		background-color: #4EAACE;
+	}
+	.calculator_page .calcu_Menu ul li a.active{
+		color: #333;
+	    background-color: #2586CC;
+	}
+	.calculator_page .calcu_Menu{
+		background: #fcfcfd;
+		height: 50px !important;
+	}
+	.calculator_page .calcu_Menu .calcu_Menu_title{
+		display: none;
+	}
+	.calculator_page .calcu_Menu.calcu_Menu_C{
+		padding: 0;
+		background: none;
+	}
+	.calculator_page .step_Right{
+		padding: 0 15px;
+	}
+	.calculator_page #step4 .step_Right form .form_group {
+		width: 100%;
+	}
+	/*programs*/
+	.programs .banner_content {
+		text-align: center;
+	}
+	.programs .banner_content h3 {
+		width: 69%;
+	}
+	.programs .contenth3 {
+		font-size: 30px;
+		width: 90%;
+	}
+
+	.programs .content .content_part .content_part_ctn img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px){
+	.contact-us {
+		display: block;
+		right: 15px;
+	}
+	#collapse-menu{
+		margin-top: 10px;
+		border-bottom: 1px solid #e7e7e7;
+	}
+	menu .navbar-default .navbar-nav>li{
+	    padding: 0 15px;
+	}
+	menu .navbar-default .navbar-nav>li>a{
+		padding: 10px 0 10px 10px;
+	}
+	.menu-sub.show {
+		display: none !important;
+	}
+	menu .main-menu-bar li{
+		text-align: left;
+	}
+	menu .main-menu-bar>li {
+	    height: auto;
+	}
+	menu .navbar-nav {
+	    margin: 0;
+	}
+	menu .navbar-default .navbar-nav>li.active:hover,
+	menu .navbar-default .navbar-nav>li.active:focus,
+	menu .navbar-default .navbar-nav>li.active,
+	menu .navbar-default .navbar-nav>li:hover,
+	menu .navbar-default .navbar-nav>li:focus
+	{
+		background: #08AA5B;
+	}
+	.main-menu-bar li ul li a:hover{
+	    text-decoration: underline;
+	}
+	.main-menu-bar li ul {
+		display: block;
+		padding-bottom: 10px;
+	}
+	.main-menu-bar li ul li a {
+		color: #fff;
+		text-decoration: none;
+	}
+	.main-menu-bar li:hover ul li a, .main-menu-bar li.active ul li a {
+		color: #fff;
+	}
+}
+@media (max-width: 640px){
+	.bannerslider .carousel-caption>h3{
+		font-size: 26px;
+	}
+	.bannerslider .carousel-caption>p{
+    	font-size: 20px;	
+	}
+	.bannerslider .carousel-caption>a {
+	    padding: 15px 30px;
+	}
+	.plan-part{
+		width: 100%;
+	}
+	.calculator{
+		margin-top: -5px;
+	}
+	.contactDetail h3{
+		font-size: 28px;
+		line-height: 38px;
+	}
+	.calculator_part {
+	    width: 90%;
+	    float: none;
+	    margin: 0 auto;
+	    padding: 30px 0;
+	}
+	.choosetaycor_Part{
+		margin-bottom: 30px;
+	}
+
+	.choosetaycor_title h3{
+		font-size: 25px;
+	}
+	.form_fixed>div>a{
+		font-size: 0;
+	}
+	.leave_message form, .callmenow form{
+		width: 300px;
+	}
+	.rollup_message {
+	    left: -88%;
+	}
+	.rollup_callme {
+	    right: -123%;
+	}
+	.callme-group label {
+		text-align: center;
+	}
+	.callme-group label, .callme-group input {
+		float: none;
+		width: 100%;
+	}
+	.form_fixed>div>a>img{
+		width: 20px;
+	}
+	.form_fixed>div>a{
+		padding: 8px 12px;
+	}
+	.navbar-brand>img{
+		width: 100%;
+	}
+	.taylorFinanceContent h3{
+		font-size: 25px;
+	}
+	.infoContact>h3{
+		font-size: 30px;
+	}
+	.subpage .bannerTopContainer{
+		padding: 30px 0;
+	}
+	.landing-name-phone {
+		width: 100%;
+	}
+	.landing-name-phone-right, .landing-name-phone-right p {
+	    float: none !important;
+	    clear: both;
+	}
+	.landing-name-phone-right input {
+		float: left !important;
+	}
+	.banner-ladding-inner h2 {
+	    margin: 10px 0 15px;
+	    font-size: 1.5em;
+	}
+	.banner-ladding-inner p {
+	    margin-bottom: 0px;
+	    font-size: 1em;
+	}
+	.subpage .banner_content h3 {
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 3px;
+	}
+	.subpage .banner_content > p {
+		line-height: 17px;
+		margin-bottom: 6px;
+		font-size: 14px
+	}
+	.subpage .banner_content .buy {
+		padding: 6px 15px;
+		font-size: 14px;
+	}
+	.subpage .banner_content .watch > img{
+		padding: 0 5px;
+	}
+	.subpage .banner_content .watch {
+		font-size: 14px;
+		margin: 0;
+	}
+	.subpage .banner_content .reviews{
+		font-size: 15px;
+	}
+	.subpage .bannerBotContainer{
+		padding: 65px 0;
+	}
+	.subpage .bannerBot_content > h3{
+		font-size: 24px;
+	}
+	.subpage .bannerBot_content > p {
+		font-size: 14px;
+		line-height: 19px;
+		margin: 8px 0;
+	}
+	.subpage .bannerBot_content > a,
+	.subpage .bannerBot_content > i{
+		font-size: 15px;
+	}
+	.subpage .content_SlideshowContainer{
+		padding-top: 43px;
+		min-height:210px;
+	}
+	.subpage .rslides h3{
+		font-size: 19px;
+		line-height: 30px;
+	}
+	.subpage .rslides h4{
+		padding: 14px 0;
+		font-size: 14px;
+	}
+	.subpage .payment_action{
+		padding-top: 145px;
+	}
+	.subpage .wrapperPayment a > img{
+		margin-bottom: 13px;
+		max-width:8%;
+	}
+	.subpage .wrapperPayment h3{
+		font-size: 24px;
+		margin-bottom: 13px
+	}
+	.subpage .wrapperPayment p{
+		font-size: 14px;
+		margin-bottom: 13px;
+	}
+	.subpage .wrapperPayment .Find_out,.subpage .wrapperPayment i{
+		font-size: 15px;
+	}
+	.subpage .ApplyOnline_action{
+		padding-top: 45px;
+	}
+	.subpage .wrapperApplyOnline h3{
+		font-size: 24px;
+		margin-bottom: 13px;
+	}
+	.subpage .wrapperApplyOnline p{
+		font-size: 13px;
+		margin-bottom: 13px;
+	}
+	.subpage .wrapperApplyOnline a,.subpage .wrapperApplyOnline i{
+		font-size: 15px;
+	}
+	.subpage .bg_content{
+		padding: 30px 0;
+		margin: 10px 0;
+	}
+	.subpage .wrapperContent h3{
+		font-size: 18px;
+		margin-bottom: 8px;
+	}
+	.subpage .wrapperContent p{
+		font-size: 13px;
+	}
+	.subpage .wrapperContent{
+		margin-left: 25px;
+	}
+	.subpage .accolade{
+		padding: 25px 0;
+	}
+	.subpage .accoladePart{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.subpage .accoladePart img{
+		margin-bottom: 5px;
+		max-width: 45%;
+	}
+	.subpage .accoladePart a{
+		font-size: 20px;
+		margin-bottom: 5px;
+		width: 100%;
+	}
+	.subpage .accoladePart p{
+		font-size: 12px;
+		max-width: 50%;
+	}
+	.subpage .contentLeft_text h3, 
+	.subpage .ctRightTop_text h3, 
+	.subpage .contentPart1_text h3, 
+	.subpage .contentPart2_text h3{
+		font-size: 24px;
+	}
+	.subpage .contentLeft_text p, 
+	.subpage .ctRightTop_text p, 
+	.subpage .contentPart1_text p, 
+	.subpage .contentPart2_text p{
+		font-size: 15px;
+	}
+	.subpage .contentLeft_text{
+		padding-top: 90px;
+	}
+	.subpage .ctRightTop_img, .subpage .ctRightTop_text{
+		min-height: 260px;
+	}
+	.subpage .ctRightTop_text{
+		padding-top: 75px;
+	}
+	.infoContact>p{
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.infoContact>span{
+		height: 10px;
+	}
+	.clientsContainer .clients_title h3 {
+	    font-size: 25px;
+	}
+	.hide-mobile {
+	    display: none!important;
+	}
+}
+@media (max-width: 600px){
+	.bannerslider .carousel-caption {
+	    top: 1%;
+	}
+	.bannerslider .carousel-caption {
+	    width: 88%;
+	    left: 6%;
+	    right: 6%;
+	}
+}
+@media (max-width: 480px){
+	header ul.nav li.phonenumber {
+		top: auto;
+		bottom: 15px;
+		width: auto;
+	}
+	header ul.nav li a {
+		font-size: 14px;
+		padding: 8px 10px;
+	}
+	header ul.nav li {
+	    width: 47%;
+	}
+	.header-wrapper ul {
+	    height: 130px;
+	}
+	.bannerslider .carousel-caption>h3 {
+	    font-size: 20px;
+	}
+	.bannerslider .carousel-caption>p {
+	    font-size: 16px !important;
+	    line-height: 14px;
+	}
+	.bannerslider .carousel-caption>a {
+	    padding: 8px 15px;
+	    font-size: 14px;
+	}
+	.landingpage header {
+	    height: auto;
+	}
+	.landingpage header ul.nav li.phonenumber {
+	    position: relative;
+	    margin-top: 20px;
+	}
+	.landingpage .header-wrapper ul {
+	    float: right;
+	    height: 45px;
+	}
+	.contactDetail h3 {
+	    font-size: 22px;
+	    line-height: 32px;
+	}
+	.choosetaycor_Part{
+		width: 100%;
+	}
+	.choosetaycor_Part7{
+		margin: 0;
+	}
+	.subpage .bannerTopContainer{
+		padding: 27px 0;
+	}
+	.subpage .banner_content h3 {
+		font-size: 20px;
+		line-height: 25px;
+		margin-bottom:3px;
+	}
+	.subpage .banner_content > p{
+		font-size: 12px;
+		line-height: 15px;
+	}
+	.subpage .banner_content .watch {
+		font-size: 12px;
+		margin: 0;
+	}
+	.subpage .banner_content .watch > img{
+		padding: 0 5px 0 0;
+	}
+	.subpage .wrapper_star{
+		margin: 6px 0 0 0;
+	}
+	.subpage .banner_content .reviews,.subpage .banner_content > i{
+		font-size: 13px;
+	}
+	.subpage .banner_content .buy{
+		margin-bottom: 5px;	
+	}
+	.subpage .bannerBotContainer {
+		padding: 50px 0;
+	}
+	.subpage .bannerBot_content > h3 {
+		font-size: 20px;
+	}
+	.subpage .bannerBot_content > p {
+		font-size: 12px;
+		line-height: 17px;
+		margin: 5px 0;
+	}
+	.subpage .bannerBot_content > a,
+	.subpage .bannerBot_content > i{
+		font-size: 13px;
+	}
+	.subpage .content_SlideshowContainer{
+		padding-top: 32px;
+		min-height:170px;
+	}
+	.subpage .rslides h3{
+		font-size: 15px;
+		line-height: 25px;
+	}
+	.subpage .rslides h4{
+		padding: 11px 0;
+		font-size: 11px;
+	}
+		.subpage .payment_action{
+		padding-top: 110px;
+	}
+	.subpage .wrapperPayment a > img{
+		margin-bottom: 10px;
+		max-width:8%;
+	}
+	.subpage .wrapperPayment h3{
+		font-size: 20px;
+		margin-bottom: 10px
+	}
+	.subpage .wrapperPayment p{
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+	.subpage .wrapperPayment .Find_out,.subpage .wrapperPayment i{
+		font-size: 13px;
+	}
+	.subpage .ApplyOnline_action{
+		padding-top: 35px;
+	}
+	.subpage .wrapperApplyOnline{
+		max-width: 350px;
+	}
+	.subpage .wrapperApplyOnline h3{
+		font-size: 20px;
+		margin-bottom: 10px;
+		max-width: 250px;
+	}
+	.subpage .wrapperApplyOnline p{
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+	.subpage .wrapperApplyOnline a,.subpage .wrapperApplyOnline i{
+		font-size: 13px;
+	}
+	.subpage .bg_content{
+		padding: 20px 0;
+		margin: 7px 0;
+	}
+	.subpage .wrapperContent h3{
+		font-size: 17px;
+		margin-bottom: 6px;
+	}
+	.subpage .wrapperContent p{
+		font-size: 12px;
+	}
+	.subpage .wrapperContent{
+		margin-left: 17px;
+	}
+	.subpage .bg_content{
+		margin: ;
+	}
+	.subpage .accolade{
+		padding: 20px 0;
+	}
+	.subpage .contentLeft_img, .subpage .contentLeft_text{
+		min-height: 300px;
+	}
+	.subpage .ctRightTop_img, .subpage .ctRightTop_text{
+		min-height: 250px;
+	}
+	.subpage .contentPart1_img, .subpage .contentPart1_text{
+		min-height: 250px;
+	}
+	.subpage .contentPart2_img, .subpage .contentPart2_text{
+		min-height: 250px;
+	}
+	.subpage .contentLeft_text h3{
+		max-width: 80%;
+	}
+	.subpage .contentLeft_text p,
+	.subpage .ctRightTop_text p,
+	.subpage .contentPart1_text p,
+	.subpage .contentPart2_text p{
+		max-width: 73%;
+		font-size: 13px;
+	}
+	.subpage .contentLeft_text h3, 
+	.subpage .ctRightTop_text h3, 
+	.subpage .contentPart1_text h3, 
+	.subpage .contentPart2_text h3{
+		font-size: 20px;
+	}
+	.subpage .contentPart2_text{
+		padding-top: 60px;
+	}
+	.subpage .contentLeft_text{
+		padding-top: 80px;
+	}
+	.subpage .dropdown-toggle {
+	    font-size: 14px;
+	    padding: 0 10px;
+	}
+	/*calculator_page*/
+	.calculator_page #step2 .step_Right tr th, .calculator_page #step2 .step_Right tr td {
+	    
+	    width: 25%;
+	    display: inline-block;
+	    line-height: 50px;
+	}
+	.calculator_page #step2 .step_Right tr td .check{
+		top: 16px;
+		left: 40%;
+	}
+	/*programs*/
+	.programs .contenth3 {
+		width: 100%;
+	}
+	.programs .contentp {
+		text-align: justify;
+		width: 100%;
+	}
+}
+@media (max-width: 380px){
+	.bannerslider .carousel-caption>h3 {
+	    font-size: 16px;
+	    margin-top: 0;
+	}
+	.bannerslider .carousel-caption>p {
+	    margin-bottom: 10px;
+	}
+	.landing-name-phone p{
+		display: none;
+	}
+}

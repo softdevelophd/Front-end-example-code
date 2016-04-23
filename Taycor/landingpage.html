@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Taycor Laravel</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script type="text/javascript" src="styles/js/jquery.min.js"></script>
+	<script type="text/javascript" src="styles/js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="styles/js/jquery.timepicker.min.js"></script>
+	<script type="text/javascript" src="styles/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="styles/js/sweetalert2.min.js"></script>
+	<script type="text/javascript" src="styles/js/custom.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#inpExcelDate").datepicker();
+        	$('#inpExcelTime').timepicker();
+
+        	/*get datetime now*/
+    		dayTimeNow = function () {
+	        	now = new Date()
+	        	dayNow = $.datepicker.formatDate('mm/dd/yy', now);
+
+        		minute = now.getMinutes();
+	        	if (minute < 10)
+	        		minute = '0' + minute;
+
+	        	ap = '';
+	        	hour = now.getHours();
+	        	if (hour >= 12) {
+	        		ap = 'PM';
+	        		if (hour - 12 < 10) 
+	        			hour = '0' + (hour - 12);
+	        	} else {
+	        		ap = 'AM';
+	        		if (hour < 10) 
+	        			hour = '0' + hour;
+	        	};
+	        	
+	        	timeNow = hour + ':' + minute + ' ' + ap;
+
+	        	$("#inpExcelDate").val(dayNow);
+	        	$("#inpExcelTime").val(timeNow);
+    		}
+
+        	$('#callDayTimeNow').trigger('click');
+
+		});
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="styles/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/css/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/css/jquery.timepicker.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/css/sweetalert2.css">
+	<link rel="stylesheet" type="text/css" href="styles/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="styles/css/media.css">
+
+	<link rel="stylesheet" type="text/css" href="styles/css/calculator.css">
+	<link rel="stylesheet" type="text/css" href="styles/css/animate.css">
+</head>
+<body class="landingpage">
+    <header>
+        <div class="container">
+            <div class="row header-wrapper">
+                <a class="navbar-brand" id="logo" href="#"><img src="styles/images/logo.png"></a>
+                <ul class="nav nav-bar">
+                    <li class="phonenumber"><i></i>&nbsp;&nbsp;800-322-9738</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+	<div class="banner-landing">
+		<div class="container">
+			<div class="banner-ladding-inner">
+				<form class="landing-form">
+					<div class="banner-content">
+						<h2>Business financing in as fast as one business day.</h2>
+						<p>$5,000 to $500,000 for your business.</p>
+						<p>Get your decision in seconds.</p>
+						<div class="landing-question">
+							<p>How much does your business need? </p>
+							<p>(Requested Finance Amount)</p>
+							<div class="landing-input-cost">
+								<input type="text" id="inpExcelCost">
+								<button class="landing-next">NEXT</button>
+							</div>
+						</div>
+					</div>
+					<div class="banner-content">
+						<h2>Great, let's get started.</h2>
+						<p>We serve new businesses as well as the Fortune 1000 community.</p>
+						<div class="landing-question">
+							<p>My business has been around for...</p>
+							<div class="landing-select">
+								<select name="tib" id="inpExcelTiB" style="width: 13.5em;">
+									<option value="1">new business</option>
+									<option value="2" selected="selected">2-5 years</option>
+									<option value="5">5-10 years</option>
+									<option value="10">10+ years</option>
+								</select>
+								<button class="landing-next">CONTINUE</button>
+							</div>
+						</div>
+					</div>
+					<div class="banner-content">
+						<h2>Next, who should we contact?</h2>
+						<p>Enter the best phone number and extension if applicable to reach you.</p>
+						<div class="landing-question landing-question-name-phone">
+							<div class="landing-name-phone landing-name-phone-left">
+								<p>Your Full Name</p>
+								<input type="text" id="inpExcelName" placeholder="">
+							</div>
+							<div class="landing-name-phone landing-name-phone-right">
+								<p>Telephone Number</p>
+								<input type="text" id="inpExcelNumber" placeholder="">
+							</div>
+							<div>
+								<button class="landing-continue">CONTINUE</button>
+							</div>
+						</div>
+					</div>
+					<div class="banner-content">
+						<h2>When should we call you?</h2>
+						<p>Schedule the date and time that works best for you in your time zone.</p>
+						<div class="landing-question">
+							<p>When can we call you back?</p>
+							<div class="landing-step-submit">
+								<input type="button" id="callDayTimeNow" class="hcallnow" value="Now" onclick="dayTimeNow()">
+								<input type="text" name="date" id="inpExcelDate" style="width: 10.5em;" value="">
+								<input type="text" id="inpExcelTime" name="time" style="width: 8.25em;margin-left: 0.325em;" value="" />
+
+								<button id="finalLanding" type="submit" class="landing-submit">Speak to a Specialist</button>
+							</div>
+						</div>
+					</div>
+
+					<div class="landing-step-fixed">
+						<span class="hback" style="display: none;">Back</span>
+						<span class="hstatus">Step one of four</span>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="container landing-page">
+		<div class="landing-title">
+			<div class="row">
+				<div class="landing-title-part col-sm-4">
+					<h2><strong>A+ Rating</strong></h2>
+					<p>from the Better Business Bureau</p>
+				</div>
+				<div class="landing-title-part col-sm-4">
+					<h2><strong>$2 Billion</strong></h2>
+					<p>delivered to businesses nationwide</p>
+				</div>
+				<div class="landing-title-part col-sm-4">
+					<h2><strong>3.15%</strong></h2>
+					<p>starting rate for exceptional credits</p>
+				</div>
+			</div>
+		</div>
+		<div class="landing-logo">
+			<div class="row">
+				<div class="col-sm-12">
+					<h3 class="landing-title-small">
+						<strong>Build your business with the equipment or capital you need with a flexible monthly payment</strong>
+					</h3>
+				</div>
+				<div class="landing-logo-part col-sm-4">
+					<img src="styles/images/landing_logo1.png">
+					<p class="landing-logo-title"><strong>Lease or Finance</strong></p>
+					<p class="landing-logo-text">Term loans up to $500,000 with a simple application.</p>
+				</div>
+				<div class="landing-logo-part col-sm-4">
+					<img src="styles/images/landing_logo2.png">
+					<p class="landing-logo-title"><strong>Fast Application and Funding</strong></p>
+					<p class="landing-logo-text">Receive a decision in seconds and get funded in as fast as a day.</p>
+				</div>
+				<div class="landing-logo-part col-sm-4">
+					<img src="styles/images/landing_logo3.png">
+					<p class="landing-logo-title"><strong>Working Capital</strong></p>
+					<p class="landing-logo-text">Grow your business with a line of credit up to $75,000.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="landing-content">
+		<div class="container-fluid">
+			<div class="col-md-4 l-content-text">
+				<h2>Benefits.</h2>
+				<p>The essence of finance is time travel. Saving is about moving resources from the present into the future; financing is about moving resources from the future back into the present.</p>
+				<p>Matt Levine Financing your capital needs with Taycor allows your purchase, or funding of business growth, to pay for itself over time with a simple application.</p>
+			</div>
+			<div class="col-md-8 l-content-right">
+				<div class="col-xs-12 col-sm-3 l-c-part">
+					<div class="l-c-title">
+						<div class="icon-title"><img src="styles/images/sub_slider_icon1.jpg"></div>
+						<div class="l-c-content"><h3>100% Financing</h3></div>
+					</div>
+					<p>Many of our financing programs require no down payment, and can roll in soft costs such as freight, installation, tax, and training </p>
+					
+				</div>
+				<div class="col-xs-12 col-sm-3 l-c-part">
+					<div class="l-c-title">
+						<div class="icon-title"><img src="styles/images/sub_slider_icon2.jpg"></div>
+						<div class="l-c-content"><h3>Conserve Business Capital</h3></div>
+					</div>
+					<p>Even if you have the cash to purchase outright or fund your growth internally our flexible programs allow you to grow without the large capital outlay</p>
+				</div>
+				<div class="col-xs-12 col-sm-3 l-c-part">
+					<div class="l-c-title">
+						<div class="icon-title"><img src="styles/images/sub_slider_icon3.jpg"></div>
+						<div class="l-c-content"><h3>Business Only Financing</h3></div>
+					</div>
+					<p>Taycor understands both our customers' needs and desires, and recognizes that personal guarantees should not be required for well establishes companies</p>
+				</div>
+				<div class="col-xs-12 col-sm-3 l-c-part">
+					<div class="l-c-title">
+						<div class="icon-title"><img src="styles/images/sub_slider_icon4.jpg"></div>
+						<div class="l-c-content"><h3>Experience</h3></div>
+					</div>
+					<p>Our leasing and financing professionals have decades in the industry, and all of our positions are filled with highly trained thoughtful experts that will guide you every step of the way</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="contactusContainer">
+		<div class="container">
+			<div class="row">
+				<div class="infoContact col-sm-5">
+					<h3>Contact Us</h3>
+					<p>800-322-9738 Voice</p>
+					<p>800-644-0082 Fax(toll free)</p>
+					<p>222 North Sepulveda Blvd Suite 675 El Segundo, CA 90245 United States of America</p>
+				</div>
+				<div class="addressContact col-sm-7">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62994.61424257348!2d-118.44323334154454!3d33.92192129721743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b14d0e79dda7%3A0x99134018fadbeb3c!2s222+N+Sepulveda+Blvd%2C+El+Segundo%2C+CA+90245%2C+Hoa+K%E1%BB%B3!5e0!3m2!1svi!2s!4v1460001124216" width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="footerTop">
+					<div class="footerTopLink col-sm-2">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">About Taycor</a></li>
+							<li><a href="#">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="footerLogoSocial">
+						<a href="#" class="logofooter"><img src="styles/images/logofooter.png"></a>
+						<div class="social_network">
+							<ul>
+								<li><a href="#"><img src="styles/images/icon_fb.png"></a></li>
+								<li><a href="#"><img src="styles/images/icon_twitter.png"></a></li>
+								<li><a href="#"><img src="styles/images/icon_g+.png"></a></li>
+								<li><a href="#"><img src="styles/images/icon_in.png"></a></li>
+								<li><a href="#"><img src="styles/images/icon_instagram.png"></a></li>
+								<li><a href="#"><img src="styles/images/icon_pinker.png"></a></li>
+								<li><a href="#"><img src="styles/images/icon_youtube.png"></a></li>
+								<li><a href="#"><img src="styles/images/icon_rss.png"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footerBot">
+					<div class="footerCoppyright">
+						<p>&copy; Coppyright 2016. Taycor Finacing equipment Leasing & Finacing.</p>
+					</div>
+					<div class="footerBotLink">
+						<ul>
+							<li><a href="#">Term & Condition</a></li>
+							<li><span>|</span></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div id="scroll-nav" class="hide-mobile hide-nav">
+		<div class="container">
+   			<a href="#" class="block mapbox-logo"><img src="styles/images/logo.png"></a>
+   			<a href="#" class="applynow pull-right">Apply Online Now</a>
+	  	</div>
+	</div>
+	<div class="form_fixed">
+		<div class="leave_message">
+			<a href="javascript:void(0)">Leave a message &nbsp;&nbsp;&nbsp;<img src="styles/images/icon_email.png"></a>
+			<div class="rollup_message">
+				<form>
+					<input name="name" placeholder="Name" class="form-control"></input>
+					<input name="email" placeholder="Email" class="form-control"></input>
+					<textarea name="message" class="form-control" placeholder="Message" rows="5"></textarea>
+					<button type="submit" class="btn btn-primary pull-right">Send message</button>
+				</form>
+			</div>
+		</div>
+		<div class="callmenow">
+			<a href="javascript:void(0)">Call me now &nbsp;&nbsp;&nbsp;<img src="styles/images/icon_phone.png"></a>
+			<div class="rollup_callme">
+				<form>
+					<div class="callme-group">
+						<label>Name:</label>
+						<input type="text" name="callme-name" value="">
+					</div>
+					<div class="callme-group">
+						<label>Phone Number:</label>
+						<input type="text" name="callme-phone" value="">
+					</div>
+					<div class="callme-submit">
+						<button type="submit" class="btn btn-primary pull-right">Send message</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
